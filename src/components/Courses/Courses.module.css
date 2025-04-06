@@ -7,6 +7,11 @@
     margin-right: 10%;
 }
 
+.titles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .title {
     color: var(--color-text);
     font-size: 35px;
@@ -14,6 +19,14 @@
     letter-spacing: 1.75px;
     text-transform: uppercase;
 }
+
+.titles .title:last-of-type {
+    display: block;
+  }
+
+.content .title {
+    display: none;
+  }
 
 .content {
     display: flex;
@@ -132,4 +145,12 @@
         width: 100%;
         gap: 9px;
     }
+
+    .titles .title:last-of-type {
+        display: none;
+      }
+    
+      .content .title {
+        display: block;
+      }
 }

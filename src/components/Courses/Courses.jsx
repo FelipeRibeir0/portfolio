@@ -7,7 +7,10 @@ import { getImageUrl } from "../../utils";
 
 export const Courses = () => {
     return <section className={styles.container} id="courses">
+        <div className={styles.titles}>
+        <h2 className={styles.title}>Stack</h2>
         <h2 className={styles.title}>Courses</h2>
+        </div>
         <div className={styles.content}>
             <div className={styles.skills}>
                 {
@@ -21,6 +24,7 @@ export const Courses = () => {
                     })
                 }
             </div>
+            <h2 className={styles.title}>Courses</h2>
             <ul className={`${styles.course} ${styles.scrollableList}`}>
                 {courses.map((course, id) => (
                     <li key={id} className={styles.courseItem}>
