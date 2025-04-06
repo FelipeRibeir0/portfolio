@@ -1,0 +1,18 @@
+[
+    {
+        "role": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+        "organisation": "SENAC SP",
+        "startDate": "Fev, 2024",
+        "endDate": "Present",
+        "description":"(Irei formular melhor)",
+        "imageSrc": "education/senac.png"
+    },
+    {
+        "role": "Técnico em Desenvolvimento de Sistemas",
+        "organisation": "ETEC - Albert Einstein",
+        "startDate": "Fev, 2022",
+        "endDate": "Jun, 2023",
+        "description":"Neste curso técnico analisamos e desenvolvemos nossos próprios sites, aplicativos e programas para computadores e celulares, utilizando ferramentas como C#, HTML, CSS, Javascript, PHP, Angular, Ionic, SQL, MongoDB, Firebase.",
+        "imageSrc": "education/etec.svg"
+    }
+]
