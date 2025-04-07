@@ -1,43 +1,61 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/work-progress-light.png",
-      "description": "Projeto em React com back-end Node e Express",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://google.com",
-      "source": "https://github.com/FelipeRibeir0"
+        "title": "API Spring Boot",
+        "imageSrc": "projects/api-spring-boot.png",
+        "description": "API RESTful para gerenciamento de produtos, com autenticação JWT, validações e documentação via Swagger.",
+        "skills": [
+            "Java",
+            "Spring Boot"
+        ],
+        "demo": "https://github.com/FelipeRibeir0/ApiSpringBoot/blob/main/README.md",
+        "source": "https://github.com/FelipeRibeir0/ApiSpringBoot"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/work-progress-light2.png",
-      "description": "Sistema web com Spring Boot e Thymeleaf",
-      "skills": ["Java", "Spring Boot", "Thymeleaf"],
-      "demo": "https://google.com",
-      "source": "https://github.com/FelipeRibeir0"
+        "title": "Weather App",
+        "imageSrc": "projects/weather-app.png",
+        "description": "Aplicativo de previsão do tempo utilizando JavaScript e API OpenWeatherApp.",
+        "skills": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "demo": "https://feliperibeir0.github.io/Weather-App/",
+        "source": "https://github.com/FelipeRibeir0/Weather-App"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/work-progress-dark.png",
-      "description": "Aplicação com PHP e MySQL",
-      "skills": ["PHP", "MySQL", "Bootstrap"],
-      "demo": "https://google.com",
-      "source": "https://github.com/FelipeRibeir0"
+        "title": "Todo List",
+        "imageSrc": "projects/todo-list.png",
+        "description": "Aplicação de lista de tarefas com HTML, CSS e JavaScript",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "https://feliperibeir0.github.io/Todo-List/",
+        "source": "https://github.com/FelipeRibeir0/Todo-List"
     },
     {
-      "title": "Project D",
-      "imageSrc": "projects/work-progress-light2.png",
-      "description": "Dashboard em C# com ASP.NET Core",
-      "skills": ["C#", "ASP.NET Core", "Entity Framework"],
-      "demo": "https://google.com",
-      "source": "https://github.com/FelipeRibeir0"
+        "title": "Project D",
+        "imageSrc": "projects/work-progress-light2.png",
+        "description": "Dashboard em C# com ASP.NET Core",
+        "skills": [
+            "C#",
+            "ASP.NET Core",
+            "Entity Framework"
+        ],
+        "demo": "https://google.com",
+        "source": "https://github.com/FelipeRibeir0"
     },
     {
-      "title": "Project E",
-      "imageSrc": "projects/work-progress-light.png",
-      "description": "SPA moderna com React e API Java",
-      "skills": ["React", "Java", "Spring Boot"],
-      "demo": "https://google.com",
-      "source": "https://github.com/FelipeRibeir0"
+        "title": "Project E",
+        "imageSrc": "projects/work-progress-light.png",
+        "description": "SPA moderna com React e API Java",
+        "skills": [
+            "React",
+            "Java",
+            "Spring Boot"
+        ],
+        "demo": "https://google.com",
+        "source": "https://github.com/FelipeRibeir0"
     }
-  ]
-  
+]
