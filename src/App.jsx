@@ -4,6 +4,7 @@ import { Main } from './components/Main/Main'
 import {About } from './components/About/About'
 import { Courses } from './components/Courses/Courses'
 import { Education } from './components/Education/Education'
+import { Projects } from './components/Projects/Projects'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Courses />
       <Education />
+      <Projects />
      </div>
   )
 }

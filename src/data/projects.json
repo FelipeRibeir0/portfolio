@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Project A",
+      "imageSrc": "projects/work-progress-light.png",
+      "description": "Projeto em React com back-end Node e Express",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://google.com",
+      "source": "https://github.com/FelipeRibeir0"
+    },
+    {
+      "title": "Project B",
+      "imageSrc": "projects/work-progress-light2.png",
+      "description": "Sistema web com Spring Boot e Thymeleaf",
+      "skills": ["Java", "Spring Boot", "Thymeleaf"],
+      "demo": "https://google.com",
+      "source": "https://github.com/FelipeRibeir0"
+    },
+    {
+      "title": "Project C",
+      "imageSrc": "projects/work-progress-dark.png",
+      "description": "Aplicação com PHP e MySQL",
+      "skills": ["PHP", "MySQL", "Bootstrap"],
+      "demo": "https://google.com",
+      "source": "https://github.com/FelipeRibeir0"
+    },
+    {
+      "title": "Project D",
+      "imageSrc": "projects/work-progress-light2.png",
+      "description": "Dashboard em C# com ASP.NET Core",
+      "skills": ["C#", "ASP.NET Core", "Entity Framework"],
+      "demo": "https://google.com",
+      "source": "https://github.com/FelipeRibeir0"
+    },
+    {
+      "title": "Project E",
+      "imageSrc": "projects/work-progress-light.png",
+      "description": "SPA moderna com React e API Java",
+      "skills": ["React", "Java", "Spring Boot"],
+      "demo": "https://google.com",
+      "source": "https://github.com/FelipeRibeir0"
+    }
+  ]
+  
