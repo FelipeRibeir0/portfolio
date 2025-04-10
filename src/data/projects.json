@@ -2,7 +2,7 @@
     {
         "title": "API Spring Boot",
         "imageSrc": "projects/api-spring-boot.png",
-        "description": "API RESTful para gerenciamento de produtos, com autenticação JWT, validações e documentação via Swagger.",
+        "description": "RESTful API for product management, with JWT authentication, validations and documentation via Swagger.",
         "skills": [
             "Java",
             "Spring Boot"
@@ -13,7 +13,7 @@
     {
         "title": "Weather App",
         "imageSrc": "projects/weather-app.png",
-        "description": "Aplicativo de previsão do tempo utilizando JavaScript e API OpenWeatherApp.",
+        "description": "Weather forecast application using JavaScript and OpenWeatherApp API.",
         "skills": [
             "JavaScript",
             "HTML",
@@ -25,7 +25,7 @@
     {
         "title": "Todo List",
         "imageSrc": "projects/todo-list.png",
-        "description": "Aplicação de lista de tarefas com HTML, CSS e JavaScript",
+        "description": "To-do list application with HTML, CSS and JavaScript",
         "skills": [
             "HTML",
             "CSS",
@@ -37,25 +37,10 @@
     {
         "title": "Project D",
         "imageSrc": "projects/work-progress-light2.png",
-        "description": "Dashboard em C# com ASP.NET Core",
+        "description": "",
         "skills": [
-            "C#",
-            "ASP.NET Core",
-            "Entity Framework"
+            "Em Breve"
         ],
-        "demo": "https://google.com",
-        "source": "https://github.com/FelipeRibeir0"
-    },
-    {
-        "title": "Project E",
-        "imageSrc": "projects/work-progress-light.png",
-        "description": "SPA moderna com React e API Java",
-        "skills": [
-            "React",
-            "Java",
-            "Spring Boot"
-        ],
-        "demo": "https://google.com",
         "source": "https://github.com/FelipeRibeir0"
     }
 ]
