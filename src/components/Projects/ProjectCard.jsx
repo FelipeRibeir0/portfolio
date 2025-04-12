@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
+import Slider from "../Slider/Slider"
 
 import { getImageUrl } from "../../utils";
 import styles from "./ProjectCard.module.css";
 
-export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source, overview }}) => {
+export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source, overview } }) => {
     const [openModal, SetModalOpen] = useState(false)
-    console.log(openModal);
     return (
         <div className={styles.container}>
             <img
@@ -38,11 +38,11 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
                 {
                     overview && (
                         <>
-                        <a onClick={() => SetModalOpen(true) } className={styles.link}>Overview</a>
-                        <Modal isOpen={openModal} SetModalOpen={() => SetModalOpen(!openModal)}>
-                        <p>Olá</p>
-                        </Modal>
-                      </>
+                            <a onClick={() => SetModalOpen(true)} className={styles.link}>Overview</a>
+                            <Modal isOpen={openModal} SetModalOpen={() => SetModalOpen(!openModal)}>
+                                <Slider projectTitle={title} />
+                            </Modal>
+                        </>
                     )
                 }
             </div>
