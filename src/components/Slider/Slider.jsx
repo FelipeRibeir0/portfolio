@@ -25,7 +25,7 @@ export default function Slider({ projectTitle }) {
                     <SwiperSlide key={item.id}>
                         <div className={styles.slide}>
                             <img
-                                src={getImageUrl("slider/" + item.image)}
+                                src={getImageUrl("overviews/" + item.image)}
                                 alt={`Slide ${item.id}`}
                                 className={styles.slideImage}
                             />

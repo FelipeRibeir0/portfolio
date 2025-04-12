@@ -6,8 +6,9 @@ import Slider from "../Slider/Slider"
 import { getImageUrl } from "../../utils";
 import styles from "./ProjectCard.module.css";
 
-export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source, overview } }) => {
-    const [openModal, SetModalOpen] = useState(false)
+export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source, overview, team } }) => {
+    const [openOverviewModal, setOpenOverviewModal] = useState(false);
+    const [openTeamModal, setOpenTeamModal] = useState(false);
     return (
         <div className={styles.container}>
             <img
@@ -35,16 +36,32 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
                         Source
                     </a>
                 )}
-                {
-                    overview && (
-                        <>
-                            <a onClick={() => SetModalOpen(true)} className={styles.link}>Overview</a>
-                            <Modal isOpen={openModal} SetModalOpen={() => SetModalOpen(!openModal)}>
-                                <Slider projectTitle={title} />
-                            </Modal>
-                        </>
-                    )
-                }
+                {overview && (
+                    <>
+                        <a onClick={() => setOpenOverviewModal(true)} className={styles.link}>Overview</a>
+                        <Modal isOpen={openOverviewModal} SetModalOpen={() => setOpenOverviewModal(false)}>
+                            <Slider projectTitle={title} />
+                        </Modal>
+                    </>
+                )}
+
+                {team && (
+                    <>
+                        <a onClick={() => setOpenTeamModal(true)} className={styles.link}>Team</a>
+                        <Modal isOpen={openTeamModal} SetModalOpen={() => setOpenTeamModal(false)}>
+                            <ul className={styles.members}>
+                                {team.map((member, index) => (
+                                    <li key={index} className={styles.member}>
+                                        <a href={member.link} target="_blank" rel="noopener noreferrer">
+                                            {member.name}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </Modal>
+                    </>
+                )}
+
             </div>
         </div>
     );

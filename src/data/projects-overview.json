@@ -1,20 +1,41 @@
 {
-    "Project D": [
-      {
-        "id": "1",
-        "image": "projectD/img1.png",
-        "text": "Descrição da imagem 1"
-      },
-      {
-        "id": "2",
-        "image": "projectD/img2.png",
-        "text": "Descrição da imagem 2"
-      },
-      {
-        "id": "3",
-        "image": "projectD/img3.png",
-        "text": "Descrição da imagem 3"
-      }
-    ]
-  }
-  
+  "Vívlio": [
+    {
+      "id": "1",
+      "image": "vivlio/menuPrincipal.png",
+      "text": "Na página inicial, os livros são organizados de forma intuitiva, permitindo que o usuário navegue por categorias literárias ou por seleções voltadas a faculdades específicas. A proposta é oferecer uma ampla variedade de títulos, garantindo ao leitor um leque diversificado de opções logo no primeiro acesso."
+    },
+    {
+      "id": "2",
+      "image": "vivlio/carousels.png",
+      "text": "Essa imagem complementa a anterior, exibindo uma continuação dos carrosséis de livros disponíveis na tela inicial. Além do carrossel 'USP 2024' presente na primeira imagem, aqui vemos também o carrossel 'UFPR 2024', ampliando a curadoria de obras direcionadas a diferentes vestibulares e instituições. Essa organização facilita ao usuário encontrar livros alinhados aos seus objetivos acadêmicos."
+    },
+    {
+      "id": "3",
+      "image": "vivlio/livro.png",
+      "text": "Ao selecionar um livro, o usuário é direcionado a esta página dedicada, onde pode acessar recursos como leitura online, download, marcação como favorito e resolução de questões relacionadas à obra. Essa tela centraliza as principais ações de interação com o conteúdo escolhido."
+    },
+    {
+      "id": "4",
+      "image": "vivlio/perfilAutor.png",
+      "text": "Na página do autor, o usuário tem a oportunidade de conhecer mais sobre a trajetória e estilo do escritor, além de visualizar todas as suas obras disponíveis na plataforma. É possível também favoritar autores, criando uma experiência personalizada de leitura."
+    }
+  ],
+  "Future Project": [
+    {
+      "id": "1",
+      "image": "futureProject/img1.png",
+      "text": "Descrição da imagem 1"
+    },
+    {
+      "id": "2",
+      "image": "futureProject/img2.png",
+      "text": "Descrição da imagem 2"
+    },
+    {
+      "id": "3",
+      "image": "futureProject/img3.png",
+      "text": "Descrição da imagem 3"
+    }
+  ]
+}

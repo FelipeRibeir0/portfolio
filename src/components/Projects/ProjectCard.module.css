@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.container{
+.container {
 
     display: flex;
     flex-direction: column;
@@ -9,23 +9,25 @@
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
-    min-height: 500px;
+    max-height: 600px;
+    height: 530px;
     max-width: 345px;
 }
 
-.image{
+.image {
     height: 200px;
     object-fit: cover;
     width: 100%;
     border-radius: 8px;
-    margin-bottom: 26px;}
+    margin-bottom: 26px;
+}
 
-.title{
+.title {
     font-size: 25px;
     font-weight: 700;
 }
 
-.description{
+.description {
     font-size: 18px;
     font-weight: 400;
     overflow: hidden;
@@ -35,7 +37,7 @@
     -webkit-box-orient: vertical;
 }
 
-.skills{
+.skills {
     width: 100%;
     margin-top: 14px;
     display: flex;
@@ -43,7 +45,10 @@
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
+    max-height: 80px;
+    overflow-x: auto;
 }
+
 
 .skill {
     font-size: 25px;
@@ -53,14 +58,71 @@
     padding: 2px 22px;
 }
 
-.links{
+.members {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgb(95, 111, 255), rgb(50, 178, 238), rgb(50, 100, 238));
+    border: 2px solid black;
+}
+
+.member {
+    position: relative;
+    padding-left: 1.8em;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.member a {
+    color: black;
+}
+
+.member::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+}
+
+.member:nth-child(3n+1)::before {
+    content: '👨🏻‍💻';
+}
+
+.member:nth-child(3n+2)::before {
+    content: '🤓';
+}
+
+.member:nth-child(3n+3)::before {
+    content: '✌️';
+}
+
+.member:nth-child(3n+4)::before {
+    content: '❓';
+}
+
+.member:nth-child(3n+5)::before {
+    content: '🤗';
+}
+
+.member:nth-child(3n+6)::before {
+    content: '🙃';
+}
+
+.links {
     width: 100%;
     margin-top: auto;
     display: flex;
     justify-content: space-around;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: var(--color-text);
     font-size: 26px;

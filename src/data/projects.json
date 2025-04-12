@@ -1,5 +1,51 @@
 [
     {
+        "title": "Vívlio",
+        "imageSrc": "projects/vivlio.png",
+        "description": "Developed back-end and database for Vívlio, a TCC group project by 5 members — a public domain book platform with favorites and reader.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL",
+            "Firebase"
+        ],
+        "overview": true,
+        "team": [
+            {
+                "id": 0,
+                "name": "Felipe Correia Ribeiro",
+                "link": "https://www.linkedin.com/in/felipe-correia-ribeiro/"
+            },
+            {
+                "id": 1,
+                "name": "Bruno Bezerra da Silva",
+                "link": "https://www.linkedin.com/in/brunobsilva25/"
+            },
+            {
+                "id": 2,
+                "name": "Guilherme de Paula P. Wanderley",
+                "link": "https://www.linkedin.com/in/lick007/"
+            },
+            {
+                "id": 3,
+                "name": "João Pedro",
+                "link": "https://www.instagram.com/joaopedroodrs/"
+            },
+            {
+                "id": 4,
+                "name": "Evelyn Silva",
+                "link": "https://www.linkedin.com/in/evelynbeatriz13/"
+            },
+            {
+                "id": 5,
+                "name": "Geovanna Abade",
+                "link": "https://www.linkedin.com/in/geovanna-abade-45ba00236/"
+            }
+        ]
+    },
+    {
         "title": "API Spring Boot",
         "imageSrc": "projects/api-spring-boot.png",
         "description": "RESTful API for product management, with JWT authentication, validations and documentation via Swagger.",
@@ -15,9 +61,9 @@
         "imageSrc": "projects/weather-app.png",
         "description": "Weather forecast application using JavaScript and OpenWeatherApp API.",
         "skills": [
-            "JavaScript",
             "HTML",
-            "CSS"
+            "CSS",
+            "JavaScript"
         ],
         "demo": "https://feliperibeir0.github.io/Weather-App/",
         "source": "https://github.com/FelipeRibeir0/Weather-App"
@@ -35,7 +81,7 @@
         "source": "https://github.com/FelipeRibeir0/Todo-List"
     },
     {
-        "title": "Project D",
+        "title": "Future Project",
         "imageSrc": "projects/work-progress-light2.png",
         "description": "",
         "skills": [
