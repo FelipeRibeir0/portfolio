@@ -1,4 +1,12 @@
 import styles from './App.module.css'
+import { register } from 'swiper/element/bundle'
+
+register();
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 import { Navbar } from './components/Navbar/Navbar'
 import { Main } from './components/Main/Main'
 import {About } from './components/About/About'
