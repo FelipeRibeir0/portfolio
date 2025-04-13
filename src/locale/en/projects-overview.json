@@ -1,0 +1,42 @@
+{
+    "Vivlio": [
+      {
+        "id": "1",
+        "image": "vivlio/menuPrincipal.png",
+        "text": "On the home page, books are intuitively organized, allowing users to browse by literary categories or by selections tailored to specific universities. The goal is to offer a wide variety of titles, giving readers a diverse range of options right from the first access."
+      },
+      {
+        "id": "2",
+        "image": "vivlio/carousels.png",
+        "text": "This image complements the previous one, showing a continuation of the book carousels available on the home screen. In addition to the 'USP 2024' carousel from the first image, this screen includes the 'UFPR 2024' carousel, expanding the curated selection of works geared towards different entrance exams and institutions. This organization helps users find books aligned with their academic goals."
+      },
+      {
+        "id": "3",
+        "image": "vivlio/livro.png",
+        "text": "When selecting a book, the user is directed to this dedicated page, where they can access features such as online reading, downloading, marking as a favorite, and solving related questions. This screen centralizes the main actions for interacting with the selected content."
+      },
+      {
+        "id": "4",
+        "image": "vivlio/perfilAutor.png",
+        "text": "On the author's page, the user can learn more about the writer's background and style, as well as view all their available works on the platform. It's also possible to favorite authors, creating a personalized reading experience."
+      }
+    ],
+    "Next Project": [
+      {
+        "id": "1",
+        "image": "futureProject/img1.png",
+        "text": "Image description 1"
+      },
+      {
+        "id": "2",
+        "image": "futureProject/img2.png",
+        "text": "Image description 2"
+      },
+      {
+        "id": "3",
+        "image": "futureProject/img3.png",
+        "text": "Image description 3"
+      }
+    ]
+  }
+  

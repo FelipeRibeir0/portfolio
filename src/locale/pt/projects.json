@@ -1,0 +1,99 @@
+{
+    "ui": {
+        "sectionTitle": "Projetos"
+    },
+    "items": [
+        {
+            "sectionTitle": "Meus Projetos",
+            "title": "Vivlio",
+            "imageSrc": "projects/vivlio.png",
+            "description": "Desenvolvi o back-end do Vívlio, um projeto de TCC em grupo com 5 integrantes - plataforma de livros de domínio público com favoritos e leitor integrado.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PHP",
+                "MySQL",
+                "Firebase"
+            ],
+            "overview": true,
+            "team": [
+                {
+                    "id": 0,
+                    "name": "Felipe Correia Ribeiro",
+                    "link": "https://www.linkedin.com/in/felipe-correia-ribeiro/"
+                },
+                {
+                    "id": 1,
+                    "name": "Bruno Bezerra da Silva",
+                    "link": "https://www.linkedin.com/in/brunobsilva25/"
+                },
+                {
+                    "id": 2,
+                    "name": "Guilherme de Paula P. Wanderley",
+                    "link": "https://www.linkedin.com/in/lick007/"
+                },
+                {
+                    "id": 3,
+                    "name": "João Pedro",
+                    "link": "https://www.instagram.com/joaopedroodrs/"
+                },
+                {
+                    "id": 4,
+                    "name": "Evelyn Silva",
+                    "link": "https://www.linkedin.com/in/evelynbeatriz13/"
+                },
+                {
+                    "id": 5,
+                    "name": "Geovanna Abade",
+                    "link": "https://www.linkedin.com/in/geovanna-abade-45ba00236/"
+                }
+            ]
+        },
+        {
+            "title": "API Spring Boot",
+            "imageSrc": "projects/api-spring-boot.png",
+            "description": "API RESTful para gerenciamento de produtos com autenticação JWT, validações e documentação via Swagger.",
+            "skills": [
+                "Java",
+                "Spring Boot"
+            ],
+            "demo": "https://github.com/FelipeRibeir0/ApiSpringBoot/blob/main/README.md",
+            "source": "https://github.com/FelipeRibeir0/ApiSpringBoot"
+        },
+        {
+            "title": "App de Clima",
+            "imageSrc": "projects/weather-app.png",
+            "description": "Aplicativo de previsão do tempo utilizando JavaScript e API OpenWeather.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "demo": "https://feliperibeir0.github.io/Weather-App/",
+            "source": "https://github.com/FelipeRibeir0/Weather-App"
+        },
+        {
+            "title": "Lista de Tarefas",
+            "imageSrc": "projects/todo-list.png",
+            "description": "Aplicativo de lista de tarefas desenvolvido com HTML, CSS e JavaScript.",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "demo": "https://feliperibeir0.github.io/Todo-List/",
+            "source": "https://github.com/FelipeRibeir0/Todo-List"
+        },
+        {
+            "title": "Próximo Projeto",
+            "imageSrc": "projects/work-progress-light2.png",
+            "description": "Em desenvolvimento - novidades em breve!",
+            "skills": [
+                "Em Breve"
+            ],
+            "source": "https://github.com/FelipeRibeir0",
+            "overview": true
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+    {
+        "ui": {
+            "sectionTitle": "Projects"
+        },
+        "items": [
+            {
+                "title": "Vivlio",
+                "imageSrc": "projects/vivlio.png",
+                "description": "Developed the back-end and database for Vívlio, a group graduation project with 5 members - public domain book platform with favorites and built-in reader.",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "PHP",
+                    "MySQL",
+                    "Firebase"
+                ],
+                "overview": true,
+                "team": [
+                    {
+                        "id": 0,
+                        "name": "Felipe Correia Ribeiro",
+                        "link": "https://www.linkedin.com/in/felipe-correia-ribeiro/"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Bruno Bezerra da Silva",
+                        "link": "https://www.linkedin.com/in/brunobsilva25/"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Guilherme de Paula P. Wanderley",
+                        "link": "https://www.linkedin.com/in/lick007/"
+                    },
+                    {
+                        "id": 3,
+                        "name": "João Pedro",
+                        "link": "https://www.instagram.com/joaopedroodrs/"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Evelyn Silva",
+                        "link": "https://www.linkedin.com/in/evelynbeatriz13/"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Geovanna Abade",
+                        "link": "https://www.linkedin.com/in/geovanna-abade-45ba00236/"
+                    }
+                ]
+            },
+            {
+                "title": "Spring Boot API",
+                "imageSrc": "projects/api-spring-boot.png",
+                "description": "RESTful API for product management with JWT authentication, validations and Swagger documentation.",
+                "skills": [
+                    "Java",
+                    "Spring Boot"
+                ],
+                "demo": "https://github.com/FelipeRibeir0/ApiSpringBoot/blob/main/README.md",
+                "source": "https://github.com/FelipeRibeir0/ApiSpringBoot"
+            },
+            {
+                "title": "Weather App",
+                "imageSrc": "projects/weather-app.png",
+                "description": "Weather forecast application using JavaScript and OpenWeather API.",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "demo": "https://feliperibeir0.github.io/Weather-App/",
+                "source": "https://github.com/FelipeRibeir0/Weather-App"
+            },
+            {
+                "title": "Todo List",
+                "imageSrc": "projects/todo-list.png",
+                "description": "Task list application built with HTML, CSS and JavaScript.",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "demo": "https://feliperibeir0.github.io/Todo-List/",
+                "source": "https://github.com/FelipeRibeir0/Todo-List"
+            },
+            {
+                "title": "Next Project",
+                "imageSrc": "projects/work-progress-light2.png",
+                "description": "In development - coming soon!",
+                "skills": [
+                    "Coming Soon"
+                ],
+                "source": "https://github.com/FelipeRibeir0",
+                "overview": true
+            }
+        ]
+    }

@@ -1,0 +1,9 @@
+{
+    "sectionTitle": "Projects",
+    "ui": {
+      "demo": "Demo",
+      "source": "Source",
+      "overview": "Overview",
+      "team": "Team"
+    }
+  }

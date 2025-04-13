@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.navbar{
+.navbar {
     position: relative;
     display: flex;
     align-items: center;
@@ -17,36 +17,65 @@
     filter: invert(100%);
 }
 
-.title{
+.title {
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
-.menuItems{
+.menuItems {
     display: flex;
     gap: 47px;
     list-style: none;
 }
 
-.menuItems a  {
+.menuItems a {
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
 }
 
+.languageSwitcher {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.langBtn {
+    font-size: 18px;
+    background: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 6px;
+    color: var(--color-text);
+    transition: all 0.2s ease;
+}
+
+.langBtn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-text);
+}
+
+.active {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: var(--color-text);
+}
+
+
+
 @media screen and (max-width: 830px) {
-    .navbar{
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .menu{
+    .menu {
         position: absolute;
         right: 0;
         margin-right: 10%;
@@ -61,7 +90,7 @@
         cursor: pointer;
     }
 
-    .menuItems{
+    .menuItems {
         display: none;
         flex-direction: column;
         align-items: center;
@@ -70,10 +99,15 @@
         background: linear-gradient(20deg, rgba(25, 55, 109, 0.9) 0%, rgba(25, 55, 109, 1) 100%);
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-        }
+    }
 
-        .menuOpen{
-            display: flex;
-            z-index: 1;
-        }
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+
+    .languageSwitcher {
+        margin-top: 12px;
+        justify-content: center;
+    }
 }

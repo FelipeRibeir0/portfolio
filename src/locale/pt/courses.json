@@ -1,0 +1,152 @@
+{
+    "ui": {
+        "stackTitle": "Habilidades",
+        "coursesTitle": "Cursos"
+    },
+    "items": [
+        {
+            "role": "Bootcamp Microsoft AI for Tech - Criando Prompts Inteligentes",
+            "organisation": "DIO",
+            "description": "Aprenda a criar prompts eficazes para a IA da Microsoft usando técnicas e estruturas avançadas.",
+            "imageSrc": "courses/prompt-inteligente.png"
+        },
+        {
+            "role": "Desenvolvendo Testes Utilizando Mockito",
+            "organisation": "DIO",
+            "description": "Aprenda a usar o Mockito para desenvolver testes em Java com exemplos práticos.",
+            "imageSrc": "courses/mockito.png"
+        },
+        {
+            "role": "Testes Unitários Com JUnit",
+            "organisation": "DIO",
+            "description": "Domine o JUnit para criar testes unitários eficientes em projetos Java.",
+            "imageSrc": "courses/junit.png"
+        },
+        {
+            "role": "Conhecendo Collections Java",
+            "organisation": "DIO",
+            "description": "Explore a API de Collections do Java com exemplos práticos e aplicações reais.",
+            "imageSrc": "courses/collections.png"
+        },
+        {
+            "role": "Ganhando Produtividade com Stream API",
+            "organisation": "DIO",
+            "description": "Aprenda a manipular dados com eficiência usando Stream API e Programação Funcional.",
+            "imageSrc": "courses/stream.png"
+        },
+        {
+            "role": "Gerenciamento de Dependências e Build em Java com Maven",
+            "organisation": "DIO",
+            "description": "Domine o Maven para gerenciar dependências e configurar builds em projetos Java.",
+            "imageSrc": "courses/maven.png"
+        },
+        {
+            "role": "Aprendendo a Sintaxe Java",
+            "organisation": "DIO",
+            "description": "Aprenda as regras essenciais para construir códigos na linguagem Java.",
+            "imageSrc": "courses/sintaxe-java.png"
+        },
+        {
+            "role": "Debugging Java",
+            "organisation": "DIO",
+            "description": "Ao final do curso, você dominará a ferramenta de debug nas IDEs IntelliJ e Eclipse e entenderá a execução de programas em Java.",
+            "imageSrc": "courses/debugging.png"
+        },
+        {
+            "role": "Fundamentos da Programação Orientada a Objetos com Java",
+            "organisation": "DIO",
+            "description": "Aprenda os fundamentos da Programação Orientada a Objetos com Java e domine a linguagem mais usada no mundo.",
+            "imageSrc": "courses/fundamentos-poo.png"
+        },
+        {
+            "role": "Introdução e Estruturas Condicionais com Java",
+            "organisation": "DIO",
+            "description": "Aprenda a programar em Java com o curso \"Introdução e Estruturas Condicionais\".",
+            "imageSrc": "courses/estruturas-condicionais.png"
+        },
+        {
+            "role": "Java e Tratamento de Exceções",
+            "organisation": "DIO",
+            "description": "Domine o Java e o Tratamento de Exceções com nossos módulos especializados.",
+            "imageSrc": "courses/tratamentos-execoes.png"
+        },
+        {
+            "role": "Pilares da Programação Orientada a Objetos em Java",
+            "organisation": "DIO",
+            "description": "Aprenda de forma prática os principais pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo.",
+            "imageSrc": "courses/poo-java.png"
+        },
+        {
+            "role": "Ambiente de Desenvolvimento Java",
+            "organisation": "DIO",
+            "description": "Domine o ambiente de desenvolvimento Java e tenha sucesso na programação.",
+            "imageSrc": "courses/ambiente-java.png"
+        },
+        {
+            "role": "Introdução à Plataforma Java",
+            "organisation": "DIO",
+            "description": "Bem-vindo à introdução à plataforma Java! Descubra a história por trás dessa poderosa linguagem.",
+            "imageSrc": "courses/plataforma-java.png"
+        },
+        {
+            "role": "Python Essentials 1",
+            "organisation": "Cisco",
+            "description": "Aprenda os conceitos fundamentais de programação e comece a desenvolver com a linguagem Python.",
+            "imageSrc": "courses/python-essentials.png"
+        },
+        {
+            "role": "Introdução à Cibersegurança",
+            "organisation": "Cisco",
+            "description": "Explore o campo da cibersegurança e entenda por que essa é uma carreira do futuro.",
+            "imageSrc": "courses/introduction-cybersecurity.png"
+        },
+        {
+            "role": "Noções Básicas de Hardware de Computador",
+            "organisation": "Cisco",
+            "description": "Aprenda os fundamentos do hardware e descubra os componentes de PCs, notebooks e dispositivos móveis.",
+            "imageSrc": "courses/hardware-basics.png"
+        },
+        {
+            "role": "Curso de PHP Moderno: Módulo 01",
+            "organisation": "Curso em Video",
+            "description": "Aprenda os fundamentos do PHP moderno, desde a sintaxe básica até a criação de scripts dinâmicos.",
+            "imageSrc": "courses/php-1.png"
+        },
+        {
+            "role": "Curso HTML5 e CSS3 Módulo 1 de 5 [40 Horas]",
+            "organisation": "Curso em Video",
+            "description": "Introdução à criação de páginas web com HTML5 e CSS3, cobrindo estrutura, estilo e boas práticas.",
+            "imageSrc": "courses/html-css.png"
+        },
+        {
+            "role": "Git e Github [20 Horas]",
+            "organisation": "Curso em Video",
+            "description": "Domine Git e GitHub: versionamento, colaboração em projetos e comandos essenciais.",
+            "imageSrc": "courses/git-e-github.png"
+        },
+        {
+            "role": "Hardware [20 Horas]",
+            "organisation": "Curso em Video",
+            "description": "Aprenda a montar, manter e escolher componentes de computador para diferentes necessidades.",
+            "imageSrc": "courses/hardware.png"
+        },
+        {
+            "role": "Excel [40 Horas]",
+            "organisation": "Curso em Video",
+            "description": "Do básico ao intermediário: fórmulas, tabelas dinâmicas, gráficos e automação de tarefas no Excel.",
+            "imageSrc": "courses/excel.png"
+        },
+        {
+            "role": "Word [40 Horas]",
+            "organisation": "Curso em Video",
+            "description": "Aprenda a formatar documentos, criar modelos profissionais e utilizar ferramentas avançadas do Word.",
+            "imageSrc": "courses/word.png"
+        },
+        {
+            "role": "Carol Me Ensina - Inglês",
+            "organisation": "Hotmart",
+            "description": "Curso completo de inglês do básico ao avançado, com módulos de vocabulário, viagens e preparação para o IELTS.",
+            "imageSrc": "courses/carol-me-ensina.png"
+        }
+    ]
+}

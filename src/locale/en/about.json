@@ -1,0 +1,18 @@
+{
+    "title": "About",
+    "items": [
+      {
+        "title": "Frontend Developer",
+        "description": "I build responsive interfaces with HTML, CSS, and JavaScript, always aiming for a good user experience and attention to detail."
+      },
+      {
+        "title": "Backend Developer",
+        "description": "I develop APIs and systems using PHP and Spring Boot, focusing on performance, structure, and best practices."
+      },
+      {
+        "title": "UI Designer",
+        "description": "I design landing pages and simple design systems, focusing on visual clarity and user experience."
+      }
+    ]
+  }
+  

@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from './Slider.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-
-import overviewData from '../../data/projects-overview.json';
 import { getImageUrl } from '../../utils';
 
-export default function Slider({ projectTitle }) {
-    const overview = overviewData[projectTitle] || [];
+export const Slider = ({ projectTitle }) => {
+    const { i18n } = useTranslation('projects-overview');
     const [activeIndex, setActiveIndex] = useState(0);
+    
+    const overviewData = i18n.getResourceBundle(i18n.language, 'projects-overview');
+    const slides = overviewData[projectTitle] || [];
+
+    if (!slides || slides.length === 0) {
+        return <div className={styles.noSlides}>No overview available for "{projectTitle}"</div>;
+    }
 
     return (
         <div className={styles.sliderContainer}>
@@ -21,22 +27,21 @@ export default function Slider({ projectTitle }) {
                 navigation
                 onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
             >
-                {overview.map((item) => (
-                    <SwiperSlide key={item.id}>
+                {slides.map((slide) => (
+                    <SwiperSlide key={slide.id}>
                         <div className={styles.slide}>
                             <img
-                                src={getImageUrl("overviews/" + item.image)}
-                                alt={`Slide ${item.id}`}
+                                src={getImageUrl("overviews/" + slide.image)}
+                                alt={`Slide ${slide.id} for ${projectTitle}`}
                                 className={styles.slideImage}
                             />
                         </div>
                     </SwiperSlide>
                 ))}
             </Swiper>
-
             <p className={styles.slideText}>
-                {overview[activeIndex]?.text}
+                {slides[activeIndex]?.text}
             </p>
         </div>
     );
-}
+};
