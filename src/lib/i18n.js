@@ -25,6 +25,8 @@ import ptNavbar from '../locale/pt/navbar.json';
 import ptProjectCard from '../locale/pt/projectCard.json';
 import ptProjectsUI from '../locale/pt/projects-ui.json';
 
+const savedLanguage = localStorage.getItem('language') || 'en';
+
 i18n
   .use(initReactI18next)
   .init({
@@ -55,7 +57,7 @@ i18n
 
       }
     },
-    lng: 'en',
+    lng: savedLanguage,
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false

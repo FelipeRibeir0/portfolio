@@ -7,6 +7,11 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const { t, i18n } = useTranslation('navbar');
 
+    const handleLanguageChange = (lang) => {
+        i18n.changeLanguage(lang);
+        localStorage.setItem("language", lang);
+    };
+
     return (
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">Felipe.dev</a>
@@ -35,13 +40,13 @@ export const Navbar = () => {
                 <div className={styles.languageSwitcher}>
                     <button
                         className={`${styles.langBtn} ${i18n.language === "en" ? styles.active : ""}`}
-                        onClick={() => i18n.changeLanguage("en")}
+                        onClick={() => handleLanguageChange("en")}
                     >
                         🇺🇸
                     </button>
                     <button
                         className={`${styles.langBtn} ${i18n.language === "pt" ? styles.active : ""}`}
-                        onClick={() => i18n.changeLanguage("pt")}
+                        onClick={() => handleLanguageChange("pt")}
                     >
                         🇧🇷
                     </button>
