@@ -38,6 +38,9 @@
 
 .educationItem img{
     width: 80px;
+    background-color: #43e0d37a;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .educationItemDetails{
