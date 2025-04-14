@@ -1,0 +1,21 @@
+{
+    "title": "Formación Académica",
+    "items": [
+      {
+        "role": "Tecnólogo en Análisis y Desarrollo de Sistemas",
+        "organisation": "SENAC SP",
+        "startDate": "Feb, 2024",
+        "endDate": "Presente",
+        "description": "Actualmente curso una graduación tecnológica con enfoque en desarrollo de sistemas y fundamentos de la ciencia de la computación.\nEn el primer semestre, estudié disciplinas como Investigación y Sociedad, Infraestructura de TI, Fundamentos de Administración, Conceptos Computacionales, y Algoritmos y Programación. Estos contenidos me ayudaron a construir una base sólida en lógica, estructura organizacional y pensamiento científico.\nEn el segundo semestre, profundicé mis conocimientos en Algoritmos y Programación II, aprendiendo sobre estructuras de datos y modularización de código. En Análisis de Sistemas, estudié levantamiento de requisitos y modelado de software. También aprendí a estructurar y consultar bases de datos relacionales con SQL, tuve una mejor comprensión de la arquitectura de computadoras en Ciencia de la Computación II, y amplié mi visión ética y social mediante la disciplina de Ética, Ciudadanía y Sostenibilidad.\nEste semestre, estoy enfocado en Ingeniería de Software y Programación Orientada a Objetos (POO). En Ingeniería de Software, estudio todo el proceso de desarrollo de sistemas, desde la definición de requisitos y modelado hasta validación y pruebas. También estoy aprendiendo sobre modelos de procesos de software como Cascada, Iterativo y Ágil.\nEn POO, estoy aprendiendo a aplicar conceptos como clases, objetos, encapsulamiento, herencia y polimorfismo, esenciales para construir softwares organizados, reutilizables y de fácil mantenimiento. Además, estoy practicando la construcción de aplicaciones con diseño orientado a objetos usando lenguajes como C#.",
+        "imageSrc": "education/senac.png"
+      },
+      {
+        "role": "Técnico en Desarrollo de Sistemas",
+        "organisation": "ETEC - Albert Einstein",
+        "startDate": "Feb, 2022",
+        "endDate": "Jun, 2023",
+        "description": "En este curso técnico, analizamos, diseñamos y desarrollamos nuestros propios sitios web, aplicaciones móviles y softwares para computadoras y smartphones. Trabajamos en todo el ciclo de desarrollo — desde la planificación y prototipado hasta la implementación y pruebas — utilizando un conjunto diverso de tecnologías y herramientas.\nEl entrenamiento práctico incluye programación en C#, desarrollo front-end con HTML, CSS y JavaScript, y back-end con PHP. También exploramos frameworks y bibliotecas modernas como Angular e Ionic para la creación de aplicaciones web y móviles dinámicas. Además, gestionamos datos con bases de datos relacionales como SQL y bases NoSQL como MongoDB y Firebase, ganando experiencia tanto en ambientes tradicionales como en la nube.\nEste enfoque práctico nos permite entender cómo diferentes tecnologías se integran para construir soluciones completas, eficientes y escalables, preparándonos para los desafíos reales del desarrollo de software.",
+        "imageSrc": "education/etec.svg"
+      }
+    ]
+  }

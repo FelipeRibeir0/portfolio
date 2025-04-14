@@ -1,0 +1,41 @@
+{
+    "Vivlio": [
+      {
+        "id": "1",
+        "image": "vivlio/menuPrincipal.png",
+        "text": "En la página de inicio, los libros están organizados de forma intuitiva, permitiendo al usuario navegar por categorías literarias o por selecciones dirigidas a universidades específicas. La propuesta es ofrecer una amplia variedad de títulos, garantizando al lector un abanico diversificado de opciones desde el primer acceso."
+      },
+      {
+        "id": "2",
+        "image": "vivlio/carousels.png",
+        "text": "Esta imagen complementa la anterior, mostrando una continuación de los carruseles de libros disponibles en la pantalla inicial. Además del carrusel 'USP 2024' presente en la primera imagen, aquí vemos también el carrusel 'UFPR 2024', ampliando la curaduría de obras dirigidas a diferentes exámenes de ingreso e instituciones. Esta organización facilita al usuario encontrar libros alineados con sus objetivos académicos."
+      },
+      {
+        "id": "3",
+        "image": "vivlio/livro.png",
+        "text": "Al seleccionar un libro, el usuario es dirigido a esta página dedicada, donde puede acceder a recursos como lectura en línea, descarga, marcación como favorito y resolución de preguntas relacionadas con la obra. Esta pantalla centraliza las principales acciones de interacción con el contenido elegido."
+      },
+      {
+        "id": "4",
+        "image": "vivlio/perfilAutor.png",
+        "text": "En la página del autor, el usuario tiene la oportunidad de conocer más sobre la trayectoria y estilo del escritor, además de visualizar todas sus obras disponibles en la plataforma. También es posible marcar autores como favoritos, creando una experiencia de lectura personalizada."
+      }
+    ],
+    "Próximo Proyecto": [
+      {
+        "id": "1",
+        "image": "futureProject/img1.png",
+        "text": "Descripción de la imagen 1"
+      },
+      {
+        "id": "2",
+        "image": "futureProject/img2.png",
+        "text": "Descripción de la imagen 2"
+      },
+      {
+        "id": "3",
+        "image": "futureProject/img3.png",
+        "text": "Descripción de la imagen 3"
+      }
+    ]
+  }

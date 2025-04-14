@@ -25,6 +25,18 @@ import ptNavbar from '../locale/pt/navbar.json';
 import ptProjectCard from '../locale/pt/projectCard.json';
 import ptProjectsUI from '../locale/pt/projects-ui.json';
 
+// Import para ES
+import esAbout from '../locale/es/about.json';
+import esCourses from '../locale/es/courses.json';
+import esEducation from '../locale/es/education.json';
+import esProjects from '../locale/es/projects.json';
+import esProjectsOverview from '../locale/es/projects-overview.json';
+import esContact from '../locale/es/contact.json';
+import esMain from '../locale/es/main.json';
+import esNavbar from '../locale/es/navbar.json';
+import esProjectCard from '../locale/es/projectCard.json';
+import esProjectsUI from '../locale/es/projects-ui.json';
+
 const savedLanguage = localStorage.getItem('language') || 'en';
 
 i18n
@@ -55,7 +67,19 @@ i18n
         main: ptMain,
         navbar: ptNavbar,
 
-      }
+      },
+      es: {
+        about: esAbout,
+        contact: esContact,
+        courses: esCourses,
+        education: esEducation,
+        projects: esProjects,
+        'projects-overview': esProjectsOverview,
+        'projects-ui': esProjectsUI,
+        ProjectCard: esProjectCard,
+        main: esMain,
+        navbar: esNavbar
+      },
     },
     lng: savedLanguage,
     fallbackLng: 'en',
