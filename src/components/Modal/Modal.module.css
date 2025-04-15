@@ -26,6 +26,7 @@
   align-items: center;
   overflow-y: auto;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .contentWrapper {
