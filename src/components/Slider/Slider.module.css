@@ -32,4 +32,8 @@
         height: 70%;
         max-width: 500px;
     }
+
+    .slideImage{
+      height: 20vh;
+    }
   }

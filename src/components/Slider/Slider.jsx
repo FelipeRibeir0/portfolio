@@ -20,28 +20,29 @@ export const Slider = ({ projectTitle }) => {
 
     return (
         <div className={styles.sliderContainer}>
-            <Swiper
-                modules={[Pagination]}
-                pagination={{ clickable: true }}
-                slidesPerView={1}
-                navigation
-                onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
-            >
-                {slides.map((slide) => (
-                    <SwiperSlide key={slide.id}>
-                        <div className={styles.slide}>
-                            <img
-                                src={getImageUrl("overviews/" + slide.image)}
-                                alt={`Slide ${slide.id} for ${projectTitle}`}
-                                className={styles.slideImage}
-                            />
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-            <p className={styles.slideText}>
-                {slides[activeIndex]?.text}
-            </p>
+          <Swiper
+            modules={[Pagination]}
+            pagination={{ clickable: true }}
+            slidesPerView={1}
+            spaceBetween={0}
+            loop={true}
+            onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+          >
+            {slides.map((slide) => (
+              <SwiperSlide key={slide.id}>
+                <div className={styles.slide}>
+                  <img
+                    src={getImageUrl("overviews/" + slide.image)}
+                    alt={`Slide ${slide.id} for ${projectTitle}`}
+                    className={styles.slideImage}
+                  />
+                  <p className={styles.slideText}>
+                    {slide.text}
+                  </p>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
-    );
-};
+      );
+    };
