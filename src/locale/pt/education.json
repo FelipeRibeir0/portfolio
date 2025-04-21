@@ -6,7 +6,7 @@
       "organisation": "SENAC SP",
       "startDate": "Fev, 2024",
       "endDate": "Presente",
-      "description": "Atualmente curso graduação tecnológica com foco em desenvolvimento de sistemas e fundamentos da ciência da computação.\n No primeiro semestre, estudei disciplinas como Pesquisa e Sociedade, Infraestrutura de TI, Fundamentos de Administração, Conceitos Computacionais e Algoritmos e Programação. Esses conteúdos me ajudaram a construir uma base sólida em lógica, estrutura organizacional e pensamento científico.\n No segundo semestre, aprofundei meus conhecimentos em Algoritmos e Programação II, aprendendo sobre estruturas de dados e modularização de código. Em Análise de Sistemas, estudei levantamento de requisitos e modelagem de software. Também aprendi a estruturar e consultar bancos de dados relacionais com SQL, tive uma melhor compreensão da arquitetura de computadores em Ciência da Computação II, e ampliei minha visão ética e social por meio da disciplina de Ética, Cidadania e Sustentabilidade.\n Neste semestre, estou focado em Engenharia de Software e Programação Orientada a Objetos (POO). Em Engenharia de Software, estudo todo o processo de desenvolvimento de sistemas, desde a definição de requisitos e modelagem até validação e testes. Também estou aprendendo sobre modelos de processos de software como Cascata, Iterativo e Ágil.\n Em POO, estou aprendendo a aplicar conceitos como classes, objetos, encapsulamento, herança e polimorfismo, essenciais para construir softwares organizados, reutilizáveis e de fácil manutenção. Além disso, estou praticando a construção de aplicações com design orientado a objetos usando linguagens como C#.",
+      "description": "Curso superior com foco prático em desenvolvimento de software.\nPrincipais aprendizados:\n- Lógica e algoritmos\n- Programação orientada a objetos\n- Engenharia de software\n- Estrutura de dados e bancos relacionais\n- Processos de desenvolvimento (cascata, iterativo, ágil)",
       "imageSrc": "education/senac.png"
     },
     {
@@ -14,7 +14,7 @@
       "organisation": "ETEC - Albert Einstein",
       "startDate": "Fev, 2022",
       "endDate": "Jun, 2023",
-      "description": "Neste curso técnico, analisamos, projetamos e desenvolvemos nossos próprios sites, aplicativos móveis e softwares para computadores e smartphones. Trabalhamos em todo o ciclo de desenvolvimento — do planejamento e prototipagem à implementação e testes — utilizando um conjunto diverso de tecnologias e ferramentas.\n O treinamento prático inclui programação em C#, desenvolvimento front-end com HTML, CSS e JavaScript, e back-end com PHP. Também exploramos frameworks e bibliotecas modernas como Angular e Ionic para criação de aplicações web e mobile dinâmicas. Além disso, gerenciamos dados com bancos de dados relacionais como SQL e bancos NoSQL como MongoDB e Firebase, ganhando experiência tanto em ambientes tradicionais quanto em nuvem.\n Essa abordagem prática nos permite entender como diferentes tecnologias se integram para construir soluções completas, eficientes e escaláveis, nos preparando para os desafios reais do desenvolvimento de software.",
+      "description": "Curso técnico voltado para fundamentos da programação e infraestrutura.\nPrincipais aprendizados:\n- Front-end (HTML, CSS, JS)\n- Back-end com C# e PHP\n- Aplicações web/mobile com Angular e Ionic\n- Bancos de dados SQL e NoSQL\n- Arduino, redes e metodologias ágeis (Scrum)",
       "imageSrc": "education/etec.svg"
     }
   ]
