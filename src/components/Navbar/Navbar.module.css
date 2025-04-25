@@ -1,16 +1,17 @@
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(45px);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    padding-top: 40px;
     z-index: 2;
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
-/* Menu Hamburger */
 .menuBtn {
     display: none;
     cursor: pointer;
@@ -31,7 +32,6 @@
     color: var(--color-text);
 }
 
-/* Menu Items */
 .menu {
     display: flex;
     align-items: center;
@@ -121,14 +121,17 @@
         gap: 12px;
     }
 
+.title{
+    font-size: 20px;
+}
+
     .menu {
         position: static;
         width: 100%;
-        margin-top: 16px;
         flex-direction: row;
         justify-content: flex-end;
-        align-items: center; /* Corrigido para alinhar os itens */
-        gap: 28px; /* Aumentado o espaçamento entre os itens */
+        align-items: center;
+        gap: 28px;
     }
 
     .menuBtn {
@@ -165,6 +168,6 @@
 
     .languageDropdown {
         margin-top: 4px;
-        margin-left: 8px; /* <-- Adiciona um espaçamento lateral */
+        margin-left: 8px;
     }
 }
