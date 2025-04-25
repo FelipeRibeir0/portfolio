@@ -98,7 +98,20 @@
     z-index: 0;
     max-width: 100vw;
     overflow: hidden;
-    pointer-events: none; 
+    pointer-events: none;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+
+}
+
+.whatsapp img {
+    width: 75px;
+    filter:opacity(70%)
 }
 
 @media screen and (max-width: 830px) {
@@ -119,12 +132,16 @@
         align-items: center;
     }
 
-    .description{
+    .description {
         margin-right: 20px;
         margin-bottom: 42px;
     }
 
     .description:nth-of-type(2) {
         display: none;
-      }
+    }
+
+    .whatsapp img {
+        width: 10vw;
+    }
 }
