@@ -135,10 +135,23 @@
         gap: 34px;
     }
 
+    .skill {
+        width: 80px;
+    }
+
     .skills {
         width: 100%;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .skillImageContainer {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .skillImageContainer img {
+        width: 40px;
     }
 
     .course {
