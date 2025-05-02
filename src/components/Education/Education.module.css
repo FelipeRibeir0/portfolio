@@ -31,7 +31,7 @@
     flex-direction: row;
     align-items: center;
     gap: 17px;
-    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    background: linear-gradient(to right, #ff6600 0%, #1a1a1a 100%);
     border-radius: 10px;
     padding: 24px;
     width: 75vw;
@@ -39,9 +39,10 @@
 
 .educationItem img {
     width: 80px;
-    background-color: #09162c;
+    background-color: var(--color-bg);
     padding: 10px;
     border-radius: 10px;
+    margin-right: 40px;
 }
 
 .educationItemDetails {

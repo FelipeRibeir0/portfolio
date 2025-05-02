@@ -1,42 +1,58 @@
 [
     {
-        "title": "HTML",
-        "imageSrc": "skills/html.png"
+      "title": "HTML",
+      "imageSrc": "skills/html.png",
+      "color": "#c14420"
     },
     {
-        "title": "CSS",
-        "imageSrc": "skills/css.png"
+      "title": "CSS",
+      "imageSrc": "skills/css.png",
+      "color": "#125a93"
     },
     {
-        "title": "JavaScript",
-        "imageSrc": "skills/js.png"
+      "title": "JavaScript",
+      "imageSrc": "skills/js.png",
+      "color": "#c9b900"
     },
     {
-        "title": "React",
-        "imageSrc": "skills/react.png"
+      "title": "React",
+      "imageSrc": "skills/react.png",
+      "color": "#3a9ebf"
     },
     {
-        "title": "Bootstrap",
-        "imageSrc": "skills/bootstrap.png"
+      "title": "Bootstrap",
+      "imageSrc": "skills/bootstrap.png",
+      "color": "#5d4093"
     },
     {
-        "title": "PHP",
-        "imageSrc": "skills/php.png"
+      "title": "PHP",
+      "imageSrc": "skills/php.png",
+      "color": "#5f6391"
     },
     {
-        "title": "Java",
-        "imageSrc": "skills/java.png"
+      "title": "Java",
+      "imageSrc": "skills/java.png",
+      "color": "#8a5d14"
     },
     {
-        "title": "Spring Boot",
-        "imageSrc": "skills/spring-boot.png"
+      "title": "Spring Boot",
+      "imageSrc": "skills/spring-boot.png",
+      "color": "#568d34"
     },
     {
-        "title": "MySQL",
-        "imageSrc": "skills/mysql.png"
+      "title": "MySQL",
+      "imageSrc": "skills/mysql.png",
+      "color": "#005a70"
     },
     {
-        "title": "Figma",
-        "imageSrc": "skills/figma.png"
+      "title": "Figma",
+      "imageSrc": "skills/figma.png",
+      "color": "#813fcf"
+    },
+    {
+      "title": "Firebase",
+      "imageSrc": "skills/firebase.png",
+      "color": "#cf7b1d"
     }
-]
+  ]
+  

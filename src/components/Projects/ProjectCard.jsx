@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Modal } from "../Modal/Modal";
 import { Slider } from "../Slider/Slider";
 import { getImageUrl } from "../../utils";
+import allSkills from "../../data/skills.json";
 import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({ project }) => {
@@ -21,10 +22,14 @@ export const ProjectCard = ({ project }) => {
         team = null
     } = project;
 
+    const skillColorMap = Object.fromEntries(
+        allSkills.map((skill) => [skill.title, skill.color])
+    );
+
     const hasTeam = team && team.length > 0;
 
     return (
-        <div className={styles.container}>
+        <div className={`${styles.containerCard} ${(openOverviewModal || openTeamModal) ? styles.disableHover : ''}`}>
             <img
                 src={getImageUrl(imageSrc)}
                 alt={`${title} project screenshot`}
@@ -33,12 +38,23 @@ export const ProjectCard = ({ project }) => {
             <h3 className={styles.title}>{title}</h3>
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>
-                {skills.map((skill, id) => (
-                    <li key={id} className={styles.skill}>
-                        {skill}
-                    </li>
-                ))}
+                {skills.map((skill, id) => {
+                    const bgColor = skillColorMap[skill] || "#444";
+
+                    return (
+                        <li
+                            key={id}
+                            className={styles.skill}
+                            style={{
+                                backgroundColor: bgColor
+                            }}
+                        >
+                            {skill}
+                        </li>
+                    );
+                })}
             </ul>
+
             <div className={styles.links}>
                 {demo && (
                     <a href={demo} className={styles.link} target="_blank" rel="noopener noreferrer">
