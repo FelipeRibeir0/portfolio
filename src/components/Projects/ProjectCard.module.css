@@ -12,6 +12,8 @@
     max-height: 600px;
     height: 530px;
     max-width: 345px;
+    margin-bottom: 25px;
+    position: relative;
 }
 
 .containerCard:hover {
@@ -146,7 +148,8 @@
     background-color: #FF7A00;
     padding: 1px 22px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 4px;
+    margin-bottom: 18px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -155,3 +158,21 @@
 .link:hover {
     background-color: #e06600;
 }
+
+.extraButton {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .extraButton:hover {
+    filter:brightness(0.8);
+  }

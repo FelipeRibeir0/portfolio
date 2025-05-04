@@ -35,7 +35,7 @@
 .skillsGrid {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: center;
     margin-top: 30px;
 }
@@ -79,11 +79,11 @@
 }
 
 .courseList {
-    max-height: 300px;
+    max-height: 500px;
     overflow-y: auto;
     list-style: none;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 30px;   
 }
 
 .courseItem {
@@ -94,6 +94,7 @@
     background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
     border-radius: 10px;
     padding: 24px;
+    margin-bottom: 16px;
 }
 
 .courseItem:hover {

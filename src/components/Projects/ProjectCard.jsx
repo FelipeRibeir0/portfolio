@@ -18,7 +18,6 @@ export const ProjectCard = ({ project }) => {
         skills = [],
         demo,
         source,
-        overview = false,
         team = null
     } = project;
 
@@ -66,14 +65,14 @@ export const ProjectCard = ({ project }) => {
                         {t("ui.source")}
                     </a>
                 )}
-                {overview && (
-                    <button
-                        onClick={() => setOpenOverviewModal(true)}
-                        className={styles.link}
-                    >
-                        {t("ui.overview")}
-                    </button>
-                )}
+
+                {/* Overview */}
+                <img src={getImageUrl("projects/extra.png")}
+                alt={t("ui.overview")}
+                className={styles.extraButton}
+                onClick={() => setOpenOverviewModal(true)}
+                />
+
                 {hasTeam && (
                     <button
                         onClick={() => setOpenTeamModal(true)}
@@ -85,14 +84,12 @@ export const ProjectCard = ({ project }) => {
             </div>
 
             {/* Modals */}
-            {overview && (
                 <Modal
                     isOpen={openOverviewModal}
                     onClose={() => setOpenOverviewModal(false)}
                 >
                     <Slider projectTitle={title} />
                 </Modal>
-            )}
 
             {hasTeam && (
                 <Modal
