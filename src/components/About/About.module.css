@@ -34,7 +34,11 @@
     flex-direction: column;
     gap: 50px;
     list-style: none;
-    filter: brightness(0) invert(1) sepia(100) hue-rotate(-60deg) saturate(100);
+}
+
+.aboutItems img {
+    width: 60px;
+    height: 60px;
 }
 
 .aboutItems ::selection {
@@ -49,13 +53,16 @@
     padding: 25px;
 }
 
-.aboutItem h3 {
+.aboutItemText h3 {
     font-size: 25px;
     font-weight: 600;
+    color: var(--color-tertiary);
 }
 
-.aboutItem p {
-    font-size: 25px;
+.aboutItemText p {
+    font-size: 18px;
+    color: var(--color-text);
+    text-shadow: 0.5px 0.5px 0.5px var(--color-quaternary) 
 }
 
 @media screen and (max-width: 1077px){

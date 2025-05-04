@@ -3,13 +3,9 @@
 .container {
     color: var(--color-text);
     margin-top: 79px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.titles{
-    display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .title {
@@ -20,14 +16,6 @@
     text-transform: uppercase;
 }
 
-.titles .title:last-of-type {
-    display: block;
-  }
-
-.content .title {
-    display: none;
-  }
-
 .content {
     display: flex;
     flex-direction: row;
@@ -35,11 +23,21 @@
     margin-top: 14px;
 }
 
-.skills {
+.skills, .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 45%;
+    margin-top: 30px;
+    padding: 60px;
+}
+
+.skillsGrid {
     display: flex;
     flex-wrap: wrap;
-    gap: 37px;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .skill {
@@ -64,7 +62,7 @@
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
     filter: saturate(1.7) brightness(1.1);
     transition: all 0.3s ease;
-  }
+}
 
 .skillImageContainer img {
     width: 45px;
@@ -76,27 +74,16 @@
     font-weight: 500;
 }
 
-.scrollableList {
-    max-height: 500px;
+.courseItem, .skill p {
+    color: var(--color-text);
+}
+
+.courseList {
+    max-height: 300px;
     overflow-y: auto;
-    padding-right: 8px;
-    width: 45%;
-}
-
-.scrollableList::-webkit-scrollbar {
-    width: 6px;
-}
-
-.scrollableList::-webkit-scrollbar-thumb {
-    background: #19376d;
-    border-radius: 3px;
-}
-
-.course {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+    list-style: none;
+    width: 100%;
+    margin-top: 30px;
 }
 
 .courseItem {
@@ -114,7 +101,7 @@
     transform: scale(1.01);
     box-shadow: 0 0 15px rgba(30, 60, 114, 0.3);
     transition: all 0.3s ease;
-  }
+}
 
 .courseItem img {
     width: 50px;
@@ -142,42 +129,48 @@
     margin-left: 17px;
 }
 
+/* Mobile Screen */
 @media screen and (max-width: 830px) {
-    .content {
-        flex-direction: column;
-        align-items: center;
-        gap: 34px;
-    }
 
-    .skill {
-        width: 80px;
-    }
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
 
     .skills {
         width: 100%;
-        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
+        gap: 20px;
     }
-
+    
+    .skillsGrid {
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .skill {
+        width: 90px;
+        gap: 6px;
+    }
+    
     .skillImageContainer {
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
     }
     
     .skillImageContainer img {
-        width: 40px;
+        width: 35px;
     }
-
-    .course {
-        width: 100%;
-        gap: 9px;
-    }
-
-    .titles .title:last-of-type {
-        display: none;
-      }
     
-      .content .title {
-        display: block;
-      }
+    .skill p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .courses {
+        width: 100%;
+    }
+
 }
