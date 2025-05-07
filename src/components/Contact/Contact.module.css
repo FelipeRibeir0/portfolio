@@ -37,14 +37,18 @@
     align-items: center;
     gap: 25px;
     line-break: anywhere;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.link a {
+.link span {
     color: var(--color-text);
-    text-decoration: none;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.5px;
+}
+
+.links a {
+    text-decoration: none;
 }
 
 .link img {
@@ -55,6 +59,12 @@
 .link:nth-child(2) img{
     filter: brightness(98%)
 }
+
+.link:hover {
+    transform: scale(1.05);
+    filter: opacity(0.8) saturate(100);
+}
+
 
 @media screen and (max-width: 830px) {
     .container {

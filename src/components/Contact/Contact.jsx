@@ -13,25 +13,25 @@ export const Contact = () => {
         <p>{t("text")}</p>
       </div>
       <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:felipecorreiaribeiro7@gmail.com" target="_blank" rel="noopener noreferrer">
-            felipecorreiaribeiro7@gmail.com
-          </a>
-        </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/linkedlnIcon.png")} alt="Linkedln icon" />
-          <a href="https://www.linkedin.com/in/felipe-correia-ribeiro/" target="_blank" rel="noopener noreferrer">
-            Felipe Correia Ribeiro
-          </a>
-        </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/FelipeRibeir0" target="_blank" rel="noopener noreferrer">
-            FelipeRibeir0
-          </a>
-        </li>
+        <a href="mailto:felipecorreiaribeiro7@gmail.com" target="_blank" rel="noopener noreferrer">
+          <li className={styles.link}>
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+            <span>felipecorreiaribeiro7@gmail.com</span>
+          </li>
+        </a>
+        <a href="https://www.linkedin.com/in/felipe-correia-ribeiro/" target="_blank" rel="noopener noreferrer">
+          <li className={styles.link}>
+            <img src={getImageUrl("contact/linkedlnIcon.png")} alt="Linkedln icon" />
+            <span>Felipe Correia Ribeiro</span>
+          </li>
+        </a>
+        <a href="https://github.com/FelipeRibeir0" target="_blank" rel="noopener noreferrer">
+          <li className={styles.link}>
+            <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+            <span>FelipeRibeir0</span>
+          </li>
+        </a>
       </ul>
-    </footer>
+    </footer >
   );
 };
