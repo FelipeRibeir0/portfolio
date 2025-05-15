@@ -67,11 +67,15 @@ export const ProjectCard = ({ project }) => {
                 )}
 
                 {/* Overview */}
-                <img src={getImageUrl("projects/extra.png")}
+                {/* <img src={getImageUrl("projects/extra.png")}
                 alt={t("ui.overview")}
                 className={styles.extraButton}
                 onClick={() => setOpenOverviewModal(true)}
-                />
+                /> */}
+                
+                <div className={styles.extraButton}>
+                <span>+</span>
+                </div>
 
                 {hasTeam && (
                     <button

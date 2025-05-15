@@ -160,8 +160,9 @@
 }
 
 .extraButton {
-    width: 70px;
-    height: 70px;
+    background-color: var(--color-quaternary);
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     position: absolute;
     bottom: -30px;
@@ -171,6 +172,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+  }
+
+  .extraButton span {
+    font-weight: 300;
+    font-size: 50px;
   }
 
   .extraButton:hover {
