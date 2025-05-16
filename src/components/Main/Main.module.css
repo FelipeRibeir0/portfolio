@@ -115,12 +115,20 @@
     bottom: 20px;
     right: 20px;
     z-index: 10;
-
+    animation: aparecer 0.1s forwards;
+    animation-delay: 1.3s;
+    opacity: 0;
 }
 
 .whatsapp img {
     width: 75px;
-    filter:opacity(70%)
+    filter: opacity(70%)
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 830px) {
