@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -90,6 +91,7 @@ export const Navbar = () => {
                         </div>
                     )}
                 </div>
+                <ThemeToggle />
             </div>
         </nav>
     );

@@ -14,10 +14,13 @@ import { Courses } from './components/Courses/Courses'
 import { Education } from './components/Education/Education'
 import { Projects } from './components/Projects/Projects'
 import { Contact } from './components/Contact/Contact'
+
 import ScrollRevealSection from './components/ScrollRevealSection/ScrollRevealSection'
+import { ThemeProvider } from './components/ThemeToggle/ThemeToggle';
 
 function App() {
   return (
+    <ThemeProvider>
     <div className={styles.App}>
       <Navbar />
 
@@ -28,6 +31,7 @@ function App() {
       <ScrollRevealSection direction="right"> <Projects /></ScrollRevealSection>
       <ScrollRevealSection direction="bottom"><Contact /></ScrollRevealSection>
     </div>
+    </ThemeProvider>
   )
 }
 

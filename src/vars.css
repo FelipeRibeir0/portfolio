@@ -1,5 +1,18 @@
 :root{
     /* Colours */
+    --color-text: #0b2447;
+    --color-primary: #576cbc;
+    --color-secondary: #a8b2d1;
+    --color-dark: #e6ecf8;
+    --color-bg: #f4f6fc;
+    --color-tertiary: #e68e4f;
+    --color-quaternary: #c49d00;
+    
+    /* Fonts */
+    --font-roboto: "Roboto";
+}
+
+[data-theme='dark'] {
     --color-text: #fff;
     --color-primary: #576cbc;
     --color-secondary: #19376d;
@@ -7,7 +20,4 @@
     --color-bg: #04152d;
     --color-tertiary: #F66B0E;
     --color-quaternary: #facb0a;
-
-    /* Fonts */
-    --font-roboto: "Roboto";
-}
+  }
