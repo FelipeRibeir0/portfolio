@@ -1,42 +1,65 @@
 {
-    "Vivlio": [
-      {
-        "id": "1",
-        "image": "vivlio/menuPrincipal.png",
-        "text": "On the home page, books are intuitively organized, allowing users to browse by literary categories or by selections tailored to specific universities. The goal is to offer a wide variety of titles, giving readers a diverse range of options right from the first access."
-      },
-      {
-        "id": "2",
-        "image": "vivlio/carousels.png",
-        "text": "This image complements the previous one, showing a continuation of the book carousels available on the home screen. In addition to the 'USP 2024' carousel from the first image, this screen includes the 'UFPR 2024' carousel, expanding the curated selection of works geared towards different entrance exams and institutions. This organization helps users find books aligned with their academic goals."
-      },
-      {
-        "id": "3",
-        "image": "vivlio/livro.png",
-        "text": "When selecting a book, the user is directed to this dedicated page, where they can access features such as online reading, downloading, marking as a favorite, and solving related questions. This screen centralizes the main actions for interacting with the selected content."
-      },
-      {
-        "id": "4",
-        "image": "vivlio/perfilAutor.png",
-        "text": "On the author's page, the user can learn more about the writer's background and style, as well as view all their available works on the platform. It's also possible to favorite authors, creating a personalized reading experience."
-      }
-    ],
-    "Next Project": [
-      {
-        "id": "1",
-        "image": "futureProject/img1.png",
-        "text": "Image description 1"
-      },
-      {
-        "id": "2",
-        "image": "futureProject/img2.png",
-        "text": "Image description 2"
-      },
-      {
-        "id": "3",
-        "image": "futureProject/img3.png",
-        "text": "Image description 3"
-      }
-    ]
-  }
-  
+  "Vivlio": [
+    {
+      "id": "1",
+      "image": "vivlio/menuPrincipal.png",
+      "text": "On the home page, books are intuitively organized, allowing users to browse by literary categories or by selections tailored to specific universities. The goal is to offer a wide variety of titles, giving readers a diverse range of options right from the first access."
+    },
+    {
+      "id": "2",
+      "image": "vivlio/carousels.png",
+      "text": "This image complements the previous one, showing a continuation of the book carousels available on the home screen. In addition to the 'USP 2024' carousel from the first image, this screen includes the 'UFPR 2024' carousel, expanding the curated selection of works geared towards different entrance exams and institutions. This organization helps users find books aligned with their academic goals."
+    },
+    {
+      "id": "3",
+      "image": "vivlio/livro.png",
+      "text": "When selecting a book, the user is directed to this dedicated page, where they can access features such as online reading, downloading, marking as a favorite, and solving related questions. This screen centralizes the main actions for interacting with the selected content."
+    },
+    {
+      "id": "4",
+      "image": "vivlio/perfilAutor.png",
+      "text": "On the author's page, the user can learn more about the writer's background and style, as well as view all their available works on the platform. It's also possible to favorite authors, creating a personalized reading experience."
+    }
+  ],
+  "Weather App": [
+    {
+      "id": "1",
+      "image": "weatherApp/telaInicial.png",
+      "text": "Initial screen of the weather forecast app showing weather information for São Paulo. It displays current conditions (overcast clouds), temperature, humidity, wind speed, and the forecast for the next four days. The layout uses a light theme with a colorful gradient background and icons representing the weather for each day."
+    },
+    {
+      "id": "2",
+      "image": "weatherApp/darkMode.png",
+      "text": "Dark mode version of the weather forecast app displaying weather data for Los Angeles. The interface shows current temperature, wind speed, humidity, cloud coverage, and the upcoming days' forecast. The design adopts dark tones and visual elements suited for nighttime viewing while maintaining weather icons and organized data cards."
+    }
+  ],
+  "Todo List": [
+    {
+      "id": "1",
+      "image": "todoList/telaInicial.png",
+      "text": "This is the beginning of my Todo List application, with a simple, intuitive, and responsive interface. Designed to simplify task management, the home screen allows users to quickly and easily add new items."
+    },
+    {
+      "id": "2",
+      "image": "todoList/tarefasCadastradas.png",
+      "text": "The interface displays the listed tasks with buttons to mark as done, edit, or delete. The clean design and smooth interactions show attention to user experience and the application of good web development practices."
+    }
+  ],
+  "Next Project": [
+    {
+      "id": "1",
+      "image": "futureProject/img1.png",
+      "text": "Image description 1"
+    },
+    {
+      "id": "2",
+      "image": "futureProject/img2.png",
+      "text": "Image description 2"
+    },
+    {
+      "id": "3",
+      "image": "futureProject/img3.png",
+      "text": "Image description 3"
+    }
+  ]
+}

@@ -67,8 +67,8 @@ export const ProjectCard = ({ project }) => {
                 )}
 
                 {/* Overview */}
-                <div className={styles.extraButton}>
-                <span>+</span>
+                <div className={styles.extraButton} onClick={() => setOpenOverviewModal(true)}>
+                    <span >+</span>
                 </div>
 
                 {hasTeam && (
@@ -82,12 +82,12 @@ export const ProjectCard = ({ project }) => {
             </div>
 
             {/* Modals */}
-                <Modal
-                    isOpen={openOverviewModal}
-                    onClose={() => setOpenOverviewModal(false)}
-                >
-                    <Slider projectTitle={title} />
-                </Modal>
+            <Modal
+                isOpen={openOverviewModal}
+                onClose={() => setOpenOverviewModal(false)}
+            >
+                <Slider projectTitle={title} />
+            </Modal>
 
             {hasTeam && (
                 <Modal

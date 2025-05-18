@@ -1,41 +1,65 @@
 {
-    "Vivlio": [
-      {
-        "id": "1",
-        "image": "vivlio/menuPrincipal.png",
-        "text": "En la página de inicio, los libros están organizados de forma intuitiva, permitiendo al usuario navegar por categorías literarias o por selecciones dirigidas a universidades específicas. La propuesta es ofrecer una amplia variedad de títulos, garantizando al lector un abanico diversificado de opciones desde el primer acceso."
-      },
-      {
-        "id": "2",
-        "image": "vivlio/carousels.png",
-        "text": "Esta imagen complementa la anterior, mostrando una continuación de los carruseles de libros disponibles en la pantalla inicial. Además del carrusel 'USP 2024' presente en la primera imagen, aquí vemos también el carrusel 'UFPR 2024', ampliando la curaduría de obras dirigidas a diferentes exámenes de ingreso e instituciones. Esta organización facilita al usuario encontrar libros alineados con sus objetivos académicos."
-      },
-      {
-        "id": "3",
-        "image": "vivlio/livro.png",
-        "text": "Al seleccionar un libro, el usuario es dirigido a esta página dedicada, donde puede acceder a recursos como lectura en línea, descarga, marcación como favorito y resolución de preguntas relacionadas con la obra. Esta pantalla centraliza las principales acciones de interacción con el contenido elegido."
-      },
-      {
-        "id": "4",
-        "image": "vivlio/perfilAutor.png",
-        "text": "En la página del autor, el usuario tiene la oportunidad de conocer más sobre la trayectoria y estilo del escritor, además de visualizar todas sus obras disponibles en la plataforma. También es posible marcar autores como favoritos, creando una experiencia de lectura personalizada."
-      }
-    ],
-    "Próximo Proyecto": [
-      {
-        "id": "1",
-        "image": "futureProject/img1.png",
-        "text": "Descripción de la imagen 1"
-      },
-      {
-        "id": "2",
-        "image": "futureProject/img2.png",
-        "text": "Descripción de la imagen 2"
-      },
-      {
-        "id": "3",
-        "image": "futureProject/img3.png",
-        "text": "Descripción de la imagen 3"
-      }
-    ]
-  }
+  "Vivlio": [
+    {
+      "id": "1",
+      "image": "vivlio/menuPrincipal.png",
+      "text": "En la página de inicio, los libros están organizados de forma intuitiva, permitiendo al usuario navegar por categorías literarias o por selecciones dirigidas a universidades específicas. La propuesta es ofrecer una amplia variedad de títulos, garantizando al lector un abanico diversificado de opciones desde el primer acceso."
+    },
+    {
+      "id": "2",
+      "image": "vivlio/carousels.png",
+      "text": "Esta imagen complementa la anterior, mostrando una continuación de los carruseles de libros disponibles en la pantalla inicial. Además del carrusel 'USP 2024' presente en la primera imagen, aquí vemos también el carrusel 'UFPR 2024', ampliando la curaduría de obras dirigidas a diferentes exámenes de ingreso e instituciones. Esta organización facilita al usuario encontrar libros alineados con sus objetivos académicos."
+    },
+    {
+      "id": "3",
+      "image": "vivlio/livro.png",
+      "text": "Al seleccionar un libro, el usuario es dirigido a esta página dedicada, donde puede acceder a recursos como lectura en línea, descarga, marcación como favorito y resolución de preguntas relacionadas con la obra. Esta pantalla centraliza las principales acciones de interacción con el contenido elegido."
+    },
+    {
+      "id": "4",
+      "image": "vivlio/perfilAutor.png",
+      "text": "En la página del autor, el usuario tiene la oportunidad de conocer más sobre la trayectoria y estilo del escritor, además de visualizar todas sus obras disponibles en la plataforma. También es posible marcar autores como favoritos, creando una experiencia de lectura personalizada."
+    }
+  ],
+  "Weather App": [
+    {
+      "id": "1",
+      "image": "weatherApp/telaInicial.png",
+      "text": "Pantalla inicial de la aplicación de pronóstico del tiempo que muestra información meteorológica para São Paulo. Presenta las condiciones actuales (nubes cubiertas), temperatura, humedad, velocidad del viento y el pronóstico para los próximos cuatro días. El diseño utiliza un tema claro con un fondo degradado colorido e íconos que representan el clima de cada día."
+    },
+    {
+      "id": "2",
+      "image": "weatherApp/darkMode.png",
+      "text": "Versión en modo oscuro de la aplicación de pronóstico del tiempo que muestra datos meteorológicos de Los Ángeles. La interfaz muestra la temperatura actual, la velocidad del viento, la humedad, la cobertura de nubes y el pronóstico para los próximos días. El diseño adopta tonos oscuros y elementos visuales adaptados para la vista nocturna, manteniendo los íconos del clima y las tarjetas de datos organizadas."
+    }
+  ],
+  "Todo List": [
+    {
+      "id": "1",
+      "image": "todoList/telaInicial.png",
+      "text": "Este es el inicio de mi aplicación de Lista de Tareas, con una interfaz simple, intuitiva y responsiva. Diseñada para facilitar la gestión de tareas, la pantalla principal permite añadir elementos de forma rápida y práctica."
+    },
+    {
+      "id": "2",
+      "image": "todoList/tarefasCadastradas.png",
+      "text": "La interfaz muestra las tareas registradas con botones para marcarlas como completadas, editarlas o eliminarlas. El diseño limpio y las interacciones fluidas demuestran atención al usuario y buenas prácticas en el desarrollo web."
+    }
+  ],
+  "Próximo Proyecto": [
+    {
+      "id": "1",
+      "image": "futureProject/img1.png",
+      "text": "Descripción de la imagen 1"
+    },
+    {
+      "id": "2",
+      "image": "futureProject/img2.png",
+      "text": "Descripción de la imagen 2"
+    },
+    {
+      "id": "3",
+      "image": "futureProject/img3.png",
+      "text": "Descripción de la imagen 3"
+    }
+  ]
+}
