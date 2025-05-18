@@ -25,10 +25,10 @@ function App() {
       <Navbar />
 
       <ScrollRevealSection direction="top"><Main /></ScrollRevealSection>
-      <ScrollRevealSection direction="right"><About /></ScrollRevealSection>
+      <ScrollRevealSection direction="left"><About /></ScrollRevealSection>
       <ScrollRevealSection direction="left"><Courses /></ScrollRevealSection>
-      <ScrollRevealSection direction="top"><Education /></ScrollRevealSection>
-      <ScrollRevealSection direction="right"> <Projects /></ScrollRevealSection>
+      <ScrollRevealSection direction="bottom"><Education /></ScrollRevealSection>
+      <ScrollRevealSection direction="top"> <Projects /></ScrollRevealSection>
       <ScrollRevealSection direction="bottom"><Contact /></ScrollRevealSection>
     </div>
     </ThemeProvider>

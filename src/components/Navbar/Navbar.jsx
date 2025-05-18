@@ -9,7 +9,7 @@ export const Navbar = () => {
     const [langDropdownOpen, setLangDropdownOpen] = useState(false);
     const { t, i18n } = useTranslation('navbar');
 
-    const menuRef = useRef(null);
+    const menuContainerRef = useRef(null);
     const dropdownRef = useRef(null);
 
     const handleLanguageChange = (lang) => {
@@ -23,7 +23,7 @@ export const Navbar = () => {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
                 setLangDropdownOpen(false);
             }
-            if (menuRef.current && !menuRef.current.contains(event.target)) {
+            if (menuContainerRef.current && !menuContainerRef.current.contains(event.target)) {
                 setMenuOpen(false);
             }
         };
@@ -46,22 +46,22 @@ export const Navbar = () => {
             <a className={styles.title} href="/">Felipe.dev</a>
 
             <div className={styles.menu}>
-                <button className={styles.menuBtn} onClick={() => setMenuOpen(!menuOpen)}>
-                    <img
-                        src={getImageUrl(menuOpen ? "nav/closeIcon.png" : "nav/menuIcon.png")}
-                        alt={menuOpen ? "Close menu" : "Open menu"}
-                    />
-                </button>
+                <div ref={menuContainerRef}>
+                    <button className={styles.menuBtn} onClick={() => setMenuOpen(!menuOpen)}>
+                        <img
+                            src={getImageUrl(menuOpen ? "nav/closeIcon.png" : "nav/menuIcon.png")}
+                            alt={menuOpen ? "Close menu" : "Open menu"}
+                        />
+                    </button>
 
-                <ul ref={menuRef}
-                    className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-                >
-                    {navLinks.map((link) => (
-                        <li key={link.id}>
-                            <a href={`#${link.id}`} onClick={() => setMenuOpen(false)}>{link.text}</a>
-                        </li>
-                    ))}
-                </ul>
+                    <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
+                        {navLinks.map((link) => (
+                            <li key={link.id}>
+                                <a href={`#${link.id}`} onClick={() => setMenuOpen(false)}>{link.text}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
 
                 <div className={styles.languageDropdown} ref={dropdownRef}>
                     <button
