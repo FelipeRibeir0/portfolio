@@ -95,7 +95,6 @@
 
 .whatsapp img {
     width: 75px;
-    filter: opacity(70%);
     max-width: 100%;
     object-fit: contain;
 }
