@@ -21,16 +21,16 @@ import { ThemeProvider } from './components/ThemeToggle/ThemeToggle';
 function App() {
   return (
     <ThemeProvider>
-    <div className={styles.App}>
-      <Navbar />
+      <div className={styles.App}>
+        <Navbar />
 
-      <ScrollRevealSection direction="top"><Main /></ScrollRevealSection>
-      <ScrollRevealSection direction="left"><About /></ScrollRevealSection>
-      <ScrollRevealSection direction="left"><Courses /></ScrollRevealSection>
-      <ScrollRevealSection direction="bottom"><Education /></ScrollRevealSection>
-      <ScrollRevealSection direction="top"> <Projects /></ScrollRevealSection>
-      <ScrollRevealSection direction="bottom"><Contact /></ScrollRevealSection>
-    </div>
+        <ScrollRevealSection direction="top"><Main /></ScrollRevealSection>
+        <ScrollRevealSection direction="left"><About /></ScrollRevealSection>
+        <ScrollRevealSection direction="left"><Courses /></ScrollRevealSection>
+        <ScrollRevealSection direction="bottom"><Education /></ScrollRevealSection>
+        <Projects />
+        <ScrollRevealSection direction="bottom"><Contact /></ScrollRevealSection>
+      </div>
     </ThemeProvider>
   )
 }
