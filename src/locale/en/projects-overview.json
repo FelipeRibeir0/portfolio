@@ -21,27 +21,27 @@
       "text": "On the author's page, the user can learn more about the writer's background and style, as well as view all their available works on the platform. It's also possible to favorite authors, creating a personalized reading experience."
     }
   ],
-  "Weather App": [
+  "Climofy": [
     {
       "id": "1",
-      "image": "weatherApp/telaInicial.png",
+      "image": "Climofy/telaInicial.png",
       "text": "Initial screen of the weather forecast app showing weather information for São Paulo. It displays current conditions (overcast clouds), temperature, humidity, wind speed, and the forecast for the next four days. The layout uses a light theme with a colorful gradient background and icons representing the weather for each day."
     },
     {
       "id": "2",
-      "image": "weatherApp/darkMode.png",
+      "image": "Climofy/darkMode.png",
       "text": "Dark mode version of the weather forecast app displaying weather data for Los Angeles. The interface shows current temperature, wind speed, humidity, cloud coverage, and the upcoming days' forecast. The design adopts dark tones and visual elements suited for nighttime viewing while maintaining weather icons and organized data cards."
     }
   ],
-  "Todo List": [
+  "Checkly": [
     {
       "id": "1",
-      "image": "todoList/telaInicial.png",
+      "image": "Checkly/telaInicial.png",
       "text": "This is the beginning of my Todo List application, with a simple, intuitive, and responsive interface. Designed to simplify task management, the home screen allows users to quickly and easily add new items."
     },
     {
       "id": "2",
-      "image": "todoList/tarefasCadastradas.png",
+      "image": "Checkly/tarefasCadastradas.png",
       "text": "The interface displays the listed tasks with buttons to mark as done, edit, or delete. The clean design and smooth interactions show attention to user experience and the application of good web development practices."
     }
   ],

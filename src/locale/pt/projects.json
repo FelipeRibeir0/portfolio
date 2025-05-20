@@ -62,7 +62,7 @@
             "source": "https://github.com/FelipeRibeir0/ApiSpringBoot"
         },
         {
-            "title": "App de Clima",
+            "title": "Climofy",
             "imageSrc": "projects/weather-app.png",
             "description": "Aplicativo de previsão do tempo utilizando JavaScript e API OpenWeather.",
             "skills": [
@@ -74,7 +74,7 @@
             "source": "https://github.com/FelipeRibeir0/Weather-App"
         },
         {
-            "title": "Lista de Tarefas",
+            "title": "Checkly",
             "imageSrc": "projects/todo-list.png",
             "description": "Aplicativo de lista de tarefas desenvolvido com HTML, CSS e JavaScript.",
             "skills": [

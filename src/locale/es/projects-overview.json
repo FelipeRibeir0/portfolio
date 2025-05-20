@@ -21,27 +21,27 @@
       "text": "En la página del autor, el usuario tiene la oportunidad de conocer más sobre la trayectoria y estilo del escritor, además de visualizar todas sus obras disponibles en la plataforma. También es posible marcar autores como favoritos, creando una experiencia de lectura personalizada."
     }
   ],
-  "Weather App": [
+  "Climofy": [
     {
       "id": "1",
-      "image": "weatherApp/telaInicial.png",
+      "image": "Climofy/telaInicial.png",
       "text": "Pantalla inicial de la aplicación de pronóstico del tiempo que muestra información meteorológica para São Paulo. Presenta las condiciones actuales (nubes cubiertas), temperatura, humedad, velocidad del viento y el pronóstico para los próximos cuatro días. El diseño utiliza un tema claro con un fondo degradado colorido e íconos que representan el clima de cada día."
     },
     {
       "id": "2",
-      "image": "weatherApp/darkMode.png",
+      "image": "Climofy/darkMode.png",
       "text": "Versión en modo oscuro de la aplicación de pronóstico del tiempo que muestra datos meteorológicos de Los Ángeles. La interfaz muestra la temperatura actual, la velocidad del viento, la humedad, la cobertura de nubes y el pronóstico para los próximos días. El diseño adopta tonos oscuros y elementos visuales adaptados para la vista nocturna, manteniendo los íconos del clima y las tarjetas de datos organizadas."
     }
   ],
-  "Todo List": [
+  "Checkly": [
     {
       "id": "1",
-      "image": "todoList/telaInicial.png",
+      "image": "Checkly/telaInicial.png",
       "text": "Este es el inicio de mi aplicación de Lista de Tareas, con una interfaz simple, intuitiva y responsiva. Diseñada para facilitar la gestión de tareas, la pantalla principal permite añadir elementos de forma rápida y práctica."
     },
     {
       "id": "2",
-      "image": "todoList/tarefasCadastradas.png",
+      "image": "Checkly/tarefasCadastradas.png",
       "text": "La interfaz muestra las tareas registradas con botones para marcarlas como completadas, editarlas o eliminarlas. El diseño limpio y las interacciones fluidas demuestran atención al usuario y buenas prácticas en el desarrollo web."
     }
   ],

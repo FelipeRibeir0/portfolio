@@ -21,27 +21,27 @@
       "text": "Na página do autor, o usuário tem a oportunidade de conhecer mais sobre a trajetória e estilo do escritor, além de visualizar todas as suas obras disponíveis na plataforma. É possível também favoritar autores, criando uma experiência personalizada de leitura."
     }
   ],
-  "Weather App": [
+  "Climofy": [
     {
       "id": "1",
-      "image": "weatherApp/telaInicial.png",
+      "image": "Climofy/telaInicial.png",
       "text": "Tela inicial do aplicativo de previsão do tempo exibindo informações meteorológicas para São Paulo. Mostra a condição climática atual (nuvens encobertas), temperatura, umidade, vento e previsão para os próximos quatro dias. O layout utiliza um tema claro com um gradiente de fundo colorido e ícones representando o clima de cada dia."
     },
     {
       "id": "2",
-      "image": "weatherApp/darkMode.png",
+      "image": "Climofy/darkMode.png",
       "text": "Versão em modo escuro do aplicativo de previsão do tempo, mostrando os dados meteorológicos de Los Angeles. A interface apresenta temperatura atual, velocidade do vento, umidade, cobertura de nuvens e a previsão para os próximos dias. O design adota tons escuros e elementos visuais adaptados ao tema noturno, mantendo os ícones de clima e os dados organizados em cartões."
     }
   ],
-  "Todo List": [
+  "Checkly": [
     {
       "id": "1",
-      "image":"todoList/telaInicial.png",
+      "image":"Checkly/telaInicial.png",
       "text": "Este é o início da minha aplicação Todo List, com uma interface simples, intuitiva e responsiva. Pensada para facilitar o gerenciamento de tarefas, a tela inicial permite adicionar novos itens de forma rápida e prática."
     },
     {
       "id": "2",
-      "image":"todoList/tarefasCadastradas.png",
+      "image":"Checkly/tarefasCadastradas.png",
       "text": "A interface exibe as tarefas cadastradas com botões para marcar como concluída, editar ou excluir. O visual limpo e a fluidez nas interações demonstram atenção ao usuário e aplicação de boas práticas no desenvolvimento web."
     }
   ],
