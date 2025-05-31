@@ -1,18 +1,18 @@
 {
-    "title": "Sobre",
-    "items": [
-      {
-        "title": "Desenvolvedor Frontend",
-        "description": "Crio interfaces responsivas com HTML, CSS e JavaScript, sempre visando boa experiência do usuário e atenção aos detalhes."
-      },
-      {
-        "title": "Desenvolvedor Backend",
-        "description": "Desenvolvo APIs e sistemas com PHP e Spring Boot, focando em performance, estrutura e boas práticas."
-      },
-      {
-        "title": "Designer de UI",
-        "description": "Crio landing pages e sistemas de design simples, priorizando clareza visual e experiência do usuário."
-      }
-    ]
-  }
-  
+  "title": "Sobre",
+  "items": [
+    {
+      "title": "Desenvolvedor Frontend",
+      "description": "Crio interfaces responsivas com HTML, CSS e JavaScript, sempre visando boa experiência do usuário e atenção aos detalhes."
+    },
+    {
+      "title": "Desenvolvedor Backend",
+      "description": "Desenvolvo APIs e sistemas com PHP e Spring Boot, focando em performance, estrutura e boas práticas."
+    },
+    {
+      "title": "Designer de UI",
+      "description": "Crio landing pages e sistemas de design simples, priorizando clareza visual e experiência do usuário."
+    }
+  ],
+  "aboutMe": "Sou movido pela curiosidade e apaixonado por entender como as coisas funcionam. Fora do código, gosto de mergulhar em filosofia, ouvir rock e explorar ideias que desafiem o comum. Estou sempre buscando aprender, crescer e ir além do que fui ontem."
+}

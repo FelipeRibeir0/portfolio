@@ -1,8 +1,8 @@
 @import "../../vars.css";
 
-.container{
+.container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
+    background-color: rgba(43, 43, 43, 0.6);
     border-radius: 15px;
     padding: 73px;
     margin-top: 129px;
@@ -11,7 +11,7 @@
     margin-right: 10%;
 }
 
-.title{
+.title {
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
@@ -19,17 +19,17 @@
     text-transform: uppercase;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.about{
+.about {
     width: 35%;
 }
 
-.aboutItems{
+.aboutItems {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -43,9 +43,9 @@
 
 .aboutItems ::selection {
     background-color: rgba(255, 165, 0, 0.3);
-  }
+}
 
-.aboutItem{
+.aboutItem {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -62,30 +62,44 @@
 .aboutItemText p {
     font-size: 18px;
     color: var(--color-text);
-    text-shadow: 0.5px 0.5px 0.5px var(--color-quaternary) 
+    text-shadow: 0.5px 0.5px 0.5px var(--color-quaternary)
 }
 
-@media screen and (max-width: 1077px){
-    .container{
+.aboutMe {
+    padding: 5px 10px;
+    font-size: 18px;
+    color: var(--color-text);
+    text-shadow: 0.5px 0.5px 0.5px var(--color-quaternary);
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    width: 500px;
+}
+
+@media screen and (max-width: 1077px) {
+    .container {
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
     }
 
-    .content{
+    .content {
         flex-direction: column;
     }
 
-    .aboutImage{
+    .aboutImage {
         display: none;
     }
 
-    .aboutItems{
+    .aboutItems {
         margin-top: 29px;
     }
 
-    .aboutItem{
+    .aboutItem {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .aboutMe {
+        margin-top: 10px;
     }
 }

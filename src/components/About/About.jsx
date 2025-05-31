@@ -24,8 +24,8 @@ export const About = () => {
                   index === 0
                     ? "about/frontend.png"
                     : index === 1
-                    ? "about/backend.png"
-                    : "about/webDesign.png"
+                      ? "about/backend.png"
+                      : "about/webDesign.png"
                 )}
                 alt="icon"
                 className={styles.aboutItems}
@@ -38,6 +38,7 @@ export const About = () => {
           ))}
         </ul>
       </div>
+      <p className={styles.aboutMe}>{t("aboutMe")}</p>
     </section>
   );
 };

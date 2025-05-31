@@ -1,18 +1,18 @@
 {
-    "title": "About",
-    "items": [
-      {
-        "title": "Frontend Developer",
-        "description": "I build responsive interfaces with HTML, CSS, and JavaScript, always aiming for a good user experience and attention to detail."
-      },
-      {
-        "title": "Backend Developer",
-        "description": "I develop APIs and systems using PHP and Spring Boot, focusing on performance, structure, and best practices."
-      },
-      {
-        "title": "UI Designer",
-        "description": "I design landing pages and simple design systems, focusing on visual clarity and user experience."
-      }
-    ]
-  }
-  
+  "title": "About",
+  "items": [
+    {
+      "title": "Frontend Developer",
+      "description": "I build responsive interfaces with HTML, CSS, and JavaScript, always aiming for a good user experience and attention to detail."
+    },
+    {
+      "title": "Backend Developer",
+      "description": "I develop APIs and systems using PHP and Spring Boot, focusing on performance, structure, and best practices."
+    },
+    {
+      "title": "UI Designer",
+      "description": "I design landing pages and simple design systems, focusing on visual clarity and user experience."
+    }
+  ],
+  "aboutMe": "I'm driven by curiosity and passionate about understanding how things work. Outside of coding, I enjoy diving into philosophy, listening to rock, and exploring ideas that challenge the ordinary. I'm always looking to learn, grow, and go beyond who I was yesterday."
+}

@@ -26,9 +26,9 @@ function App() {
 
         <ScrollRevealSection direction="top"><Main /></ScrollRevealSection>
         <ScrollRevealSection direction="left"><About /></ScrollRevealSection>
+        <Projects />
         <ScrollRevealSection direction="left"><Courses /></ScrollRevealSection>
         <ScrollRevealSection direction="bottom"><Education /></ScrollRevealSection>
-        <Projects />
         <ScrollRevealSection direction="bottom"><Contact /></ScrollRevealSection>
       </div>
     </ThemeProvider>
