@@ -37,6 +37,13 @@
     width: 75vw;
 }
 
+.educationItem:hover {
+    background: linear-gradient(90deg, rgb(255, 106, 0) 0%, rgb(255, 169, 88) 100%);
+    transform: scale(1.01);
+    box-shadow: 0 0 15px rgba(30, 60, 114, 0.3);
+    transition: all 0.3s ease;
+}
+
 .educationItem img {
     width: 80px;
     background-color: var(--color-bg);
