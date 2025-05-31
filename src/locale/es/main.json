@@ -1,7 +1,7 @@
-{
+  {
     "title": "Hola, soy Felipe",
-    "description1": "Soy un desarrollador fullstack con experiencia académica y proyectos personales en backend, frontend y diseño de interfaces.",
-    "description2": "Me gusta entender cómo funcionan las cosas de principio a fin y busco construir soluciones funcionales, bien estructuradas y fáciles de usar.",
-    "description3": "¡Contáctame si quieres saber más!",
+    "description1": "Transformo código en soluciones inteligentes — uniendo lógica, diseño y experiencia del usuario.",
+    "description2": "Soy un desarrollador fullstack que entrega valor real con eficiencia, estructura y enfoque en el usuario.",
+    "description3": "¿Quieres saber más? Mi currículum está justo abajo.",
     "curriculumBtn": "Currículum"
-}
+  }

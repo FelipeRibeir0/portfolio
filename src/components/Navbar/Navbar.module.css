@@ -75,6 +75,14 @@
     height: 28px;
 }
 
+  .dropdownToggle:hover {
+    transform: scale(1.1);
+  }
+  
+  .dropdownToggle:active {
+    transform: scale(0.95);
+  }
+
 .dropdownMenu {
     position: absolute;
     right: 0;
