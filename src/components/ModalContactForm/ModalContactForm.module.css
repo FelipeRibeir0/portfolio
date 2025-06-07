@@ -1,0 +1,10 @@
+.container {
+    height: 63dvh;
+    width: 65dvw;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
