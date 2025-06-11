@@ -37,7 +37,7 @@ import esNavbar from '../locale/es/navbar.json';
 import esProjectCard from '../locale/es/projectCard.json';
 import esProjectsUI from '../locale/es/projects-ui.json';
 
-const savedLanguage = localStorage.getItem('language') || 'en';
+const savedLanguage = localStorage.getItem('language') || 'pt';
 
 i18n
   .use(initReactI18next)
