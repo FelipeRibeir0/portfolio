@@ -1,5 +1,11 @@
 {
     "title": "Contact",
-    "text": "Feel free to reach out"
-  }
+    "text": "Feel free to reach out",
+    "titleModal": "Contact Me",
+    "userName": "Name",
+    "userEmail": "Email",
+    "message": "Message",
+    "subject": "Subject",
+    "sendButton": "Send Email"
+}
   

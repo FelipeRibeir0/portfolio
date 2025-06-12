@@ -1,4 +1,10 @@
 {
-    "title": "Contacto",
-    "text": "Siéntete libre de ponerte en contacto"
+"title": "Contacto",
+"text": "No dudes en contactarme",
+"titleModal": "Contáctame",
+"userName": "Nombre",
+"userEmail": "Correo electrónico",
+"message": "Mensaje",
+"subject": "Asunto",
+"sendButton": "Enviar correo electrónico"
 }

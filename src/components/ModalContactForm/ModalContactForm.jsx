@@ -11,18 +11,23 @@ export const ModalContactForm = ({ isOpen, onClose }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const {
+      VITE_EMAILJS_SERVICE_ID: serviceId,
+      VITE_EMAILJS_TEMPLATE_ID: templateId,
+      VITE_EMAILJS_PUBLIC_KEY: publicKey,
+    } = import.meta.env;
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
-        publicKey: "YOUR_PUBLIC_KEY",
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey: publicKey,
       })
       .then(
         () => {
-          console.log("SUCCESS!");
           form.current.reset();
           onClose();
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.error("FAILED...", error.text);
         }
       );
   };
@@ -30,15 +35,48 @@ export const ModalContactForm = ({ isOpen, onClose }) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <div className={styles.container}>
-        <h1 className={styles.title}>{t("title")}</h1>
-        <form ref={form} onSubmit={sendEmail}>
-          <label htmlFor="user_name">Name</label>
-          <input type="text" name="user_name" id="user_name" required />
-          <label htmlFor="user_email">Email</label>
-          <input type="email" name="user_email" id="user_email" required />
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" required />
-          <input type="submit" value="Send" />
+        <h1 className={styles.title}>{t("titleModal")}</h1>
+        <form ref={form} onSubmit={sendEmail} noValidate>
+          <label htmlFor="userName">{t("userName")}</label>
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            required
+            maxLength={50}
+            title="Seu nome completo (máx. 50 caracteres)"
+            autoComplete="off"
+          />
+          <label htmlFor="userEmail">{t("userEmail")}</label>
+          <input
+            type="email"
+            name="userEmail"
+            id="userEmail"
+            required
+            maxLength={70}
+            title="Insira um e-mail válido (máx. 70 caracteres)"
+            autoComplete="off"
+          />
+          <label htmlFor="subject">{t("subject")}</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            required
+            maxLength={70}
+            title="Assunto da mensagem (máx. 70 caracteres)"
+            autoComplete="off"
+          />
+          <label htmlFor="message">{t("message")}</label>
+          <textarea
+            name="message"
+            id="message"
+            required
+            maxLength={1000}
+            rows={6}
+            title="Escreva sua mensagem (máx. 1000 caracteres)"
+          />
+          <input type="submit" value={t("sendButton")} />
         </form>
       </div>
     </Modal>

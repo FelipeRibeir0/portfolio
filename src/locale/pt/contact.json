@@ -1,5 +1,10 @@
 {
-    "title": "Contato",
-    "text": "Sinta-se à vontade para entrar em contato"
-  }
-  
+"title": "Contato",
+"text": "Sinta-se à vontade para entrar em contato",
+"titleModal": "Entre em contato",
+"userName": "Nome",
+"userEmail": "E-mail",
+"message": "Mensagem",
+"subject": "Assunto",
+"sendButton": "Enviar e-mail"
+}
