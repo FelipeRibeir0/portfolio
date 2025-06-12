@@ -62,7 +62,7 @@
 
 .link:hover {
     transform: scale(1.05);
-    filter: opacity(0.8) saturate(100);
+    filter: opacity(0.8);
 }
 
 

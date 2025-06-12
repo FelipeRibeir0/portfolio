@@ -52,7 +52,7 @@
 }
 
 .menuItems a:hover {
-    color: var(--color-tertiary);
+    color: var(--color-quaternary);
 }
 
 /* Mobile Styles */
