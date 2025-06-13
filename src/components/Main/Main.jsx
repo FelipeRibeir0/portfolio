@@ -27,8 +27,6 @@ export const Main = () => {
                 alt="Image of me"
                 className={styles.heroImg}
             />
-            <div className={styles.topBlur}></div>
-            <div className={styles.bottomBlur}></div>
 
             <div className={styles.whatsapp}>
                 <a href="https://wa.me/5511980832140?text=Oi%20Felipe.%20Vim%20pelo%20seu%20portfolio" target="_blank">

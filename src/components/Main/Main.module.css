@@ -110,13 +110,7 @@
         flex-direction: column-reverse;
         overflow: hidden;
         position: relative;
-    }
-
-    .bottomBlur {
-        right: -15vw;
-        width: 60vw;
-        height: 40vw;
-        top: 180px;
+        margin-top: 10px;
     }
 
     .content {
