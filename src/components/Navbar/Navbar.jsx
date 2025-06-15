@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
-import ThemeToggle from '../ThemeToggle/ThemeToggle';
-import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
+import ThemeToggle from './ThemeToggle/ThemeToggle';
+import LanguageDropdown from './LanguageDropdown/LanguageDropdown';
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);

@@ -16,7 +16,7 @@ import { Projects } from './components/Projects/Projects'
 import { Contact } from './components/Contact/Contact'
 
 import ScrollRevealSection from './components/ScrollRevealSection/ScrollRevealSection'
-import { ThemeProvider } from './components/ThemeToggle/ThemeToggle';
+import { ThemeProvider } from './components/Navbar/ThemeToggle/ThemeToggle';
 
 function App() {
   return (

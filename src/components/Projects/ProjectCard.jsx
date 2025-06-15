@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Modal } from "../Modal/Modal";
-import { Slider } from "../Slider/Slider";
+import { Slider } from "../Modal/Slider/Slider";
 import { getImageUrl } from "../../utils";
 import allSkills from "../../data/skills.json";
 import styles from "./ProjectCard.module.css";

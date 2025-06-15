@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './Slider.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import { getImageUrl } from '../../utils';
+import { getImageUrl } from '../../../utils';
 
 export const Slider = ({ projectTitle }) => {
     const { i18n } = useTranslation('projects-overview');
-    const [activeIndex, setActiveIndex] = useState(0);
-    
+
     const overviewData = i18n.getResourceBundle(i18n.language, 'projects-overview');
     const slides = overviewData[projectTitle] || [];
 
@@ -26,7 +24,6 @@ export const Slider = ({ projectTitle }) => {
             slidesPerView={1}
             spaceBetween={0}
             loop={true}
-            onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
           >
             {slides.map((slide) => (
               <SwiperSlide key={slide.id}>
@@ -44,5 +41,5 @@ export const Slider = ({ projectTitle }) => {
             ))}
           </Swiper>
         </div>
-      );
-    };
+    );
+};

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../../utils";
 import styles from "./LanguageDropdown.module.css";
 
 const LanguageDropdown = () => {
