@@ -87,7 +87,7 @@ Acesse no navegador: `http://localhost:5173`
 
 Hospedado na **Vercel**, com deploy automático a partir da branch `main`.
 
-🔗 [Acesse o site publicado](https://portfolio-feliperibeiro.vercel.app)  
+🔗 [Acesse o site publicado](https://feliperibeiro-portfolio.vercel.app/)
 ![Vercel Badge](https://vercelbadge.vercel.app/api/FelipeRibeir0/portfolio)
 
 ---
@@ -182,7 +182,7 @@ Open in your browser: `http://localhost:5173`
 
 Hosted on **Vercel**, with automatic deployment from the `main` branch.
 
-🔗 [Visit live site](https://portfolio-feliperibeiro.vercel.app)  
+🔗 [Visit live site](https://feliperibeiro-portfolio.vercel.app/) 
 ![Vercel Badge](https://vercelbadge.vercel.app/api/FelipeRibeir0/portfolio)
 
 ---
