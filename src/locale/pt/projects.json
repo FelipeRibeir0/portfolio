@@ -86,14 +86,17 @@
             "source": "https://github.com/FelipeRibeir0/Todo-List"
         },
         {
-            "title": "Próximo Projeto",
-            "imageSrc": "projects/work-progress-light2.png",
-            "description": "Em desenvolvimento - novidades em breve!",
+            "title": "InVision Optica",
+            "imageSrc": "projects/invision-optica.svg",
+            "description": "Vitrine digital para uma óptica personalizada, com catálogo de produtos, autenticação por e-mail e senha e integração com Firebase Firestore.",
             "skills": [
-                "Em Breve"
+                "HTML",
+                "Bootstrap 5.3",
+                "CSS",
+                "JavaScript",
+                "Firebase"
             ],
-            "source": "https://github.com/FelipeRibeir0",
-            "overview": true
+            "demo": "https://invisionoptica.com.br/"
         }
     ]
 }
