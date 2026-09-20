@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">InVision Óptica</title>
+  <desc id="desc">Thumbnail for the InVision Óptica digital storefront project.</desc>
+  <defs>
+    <linearGradient id="rightPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09232d"/>
+      <stop offset="100%" stop-color="#070d14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="600" width="600" height="675" fill="url(#rightPanel)"/>
+  <text x="54" y="64" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#087fa8">InVision</text>
+  <text x="54" y="88" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" fill="#4b5563">ÓPTICA PERSONALIZADA</text>
+  <text x="54" y="250" font-family="Georgia, serif" font-size="64" fill="#111111">Ver bem é</text>
+  <text x="54" y="326" font-family="Georgia, serif" font-size="64" fill="#111111">viver com</text>
+  <text x="54" y="402" font-family="Georgia, serif" font-size="64" fill="#06a8d0">clareza.</text>
+  <text x="54" y="456" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#77818c">Vitrine digital para uma experiência óptica</text>
+  <text x="54" y="482" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#77818c">moderna, clara e personalizada.</text>
+  <rect x="54" y="530" width="148" height="44" rx="3" fill="#08a8d0"/>
+  <text x="128" y="557" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff">VER VITRINE</text>
+  <rect x="654" y="160" width="490" height="310" rx="22" fill="#102c36" stroke="#1b4654" stroke-width="2"/>
+  <rect x="710" y="218" width="378" height="190" rx="4" fill="#30353d"/>
+  <text x="899" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">VARILUX</text>
+  <text x="899" y="322" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" letter-spacing="3" fill="#d5dbe0">PLATINE</text>
+  <text x="899" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#08a8d0">ESPECIALISTAS CERTIFICADOS</text>
+  <circle cx="900" cy="315" r="180" fill="none" stroke="#0b5367" stroke-width="1" opacity=".65"/>
+  <rect x="630" y="570" width="188" height="65" rx="7" fill="#ffffff"/>
+  <text x="648" y="596" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="1" fill="#77818c">PRODUTOS EM VITRINE</text>
+  <text x="648" y="620" font-family="Georgia, serif" font-size="21" fill="#08a8d0">22 itens</text>
+  <rect y="648" width="1200" height="27" fill="#050505"/>
+  <text x="600" y="666" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">InVision Óptica • Vitrine digital</text>
+</svg>
