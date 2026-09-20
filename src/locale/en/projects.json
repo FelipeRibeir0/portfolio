@@ -86,7 +86,7 @@
         },
         {
             "title": "InVision Optica",
-            "imageSrc": "projects/invision-optica.svg",
+            "imageSrc": "projects/invision.png",
             "description": "Digital storefront for a custom optical shop, featuring a product catalog, email and password authentication, and Firebase Firestore integration.",
             "skills": [
                 "HTML",

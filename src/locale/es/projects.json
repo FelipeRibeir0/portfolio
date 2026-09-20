@@ -87,7 +87,7 @@
         },
         {
             "title": "InVision Optica",
-            "imageSrc": "projects/invision-optica.svg",
+            "imageSrc": "projects/invision.png",
             "description": "Vitrina digital para una óptica personalizada, con catálogo de productos, autenticación por correo y contraseña e integración con Firebase Firestore.",
             "skills": [
                 "HTML",
